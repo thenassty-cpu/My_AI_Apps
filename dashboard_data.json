@@ -1,0 +1,5218 @@
+{
+  "last_updated": "2026-09-28 16:26:17",
+  "alert_summary": {
+    "12h": {
+      "peak_index": 0.5011,
+      "peak_time": "29/09 03:00",
+      "label": "🟡 MEDIUM",
+      "desc": "ระดับเฝ้าระวัง — ติดตามทุก 30 นาที"
+    },
+    "24h": {
+      "peak_index": 0.5359,
+      "peak_time": "29/09 16:20",
+      "label": "🟡 MEDIUM",
+      "desc": "ระดับเฝ้าระวัง — ติดตามทุก 30 นาที"
+    },
+    "48h": {
+      "peak_index": 0.5583,
+      "peak_time": "29/09 17:00",
+      "label": "🟡 MEDIUM",
+      "desc": "ระดับเฝ้าระวัง — ติดตามทุก 30 นาที"
+    }
+  },
+  "timeline_48h": [
+    {
+      "time": "2026-09-28 16:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 0.14166666666666666,
+      "tide_m": 1.4785000000000001,
+      "delta_h_wind_m": 0.2107,
+      "risk_index": 0.4473,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 16:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 0.2916666666666667,
+      "tide_m": 1.491,
+      "delta_h_wind_m": 0.2089,
+      "risk_index": 0.4499,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 16:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 0.45000000000000007,
+      "tide_m": 1.4991666666666668,
+      "delta_h_wind_m": 0.207,
+      "risk_index": 0.4518,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 16:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 0.6166666666666667,
+      "tide_m": 1.5073333333333334,
+      "delta_h_wind_m": 0.2049,
+      "risk_index": 0.4538,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 16:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 0.7916666666666667,
+      "tide_m": 1.5155,
+      "delta_h_wind_m": 0.2028,
+      "risk_index": 0.4559,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 16:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 0.9750000000000001,
+      "tide_m": 1.5236666666666667,
+      "delta_h_wind_m": 0.2006,
+      "risk_index": 0.458,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 16:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.1666666666666667,
+      "tide_m": 1.5318333333333334,
+      "delta_h_wind_m": 0.1984,
+      "risk_index": 0.4587,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 17:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.3666666666666667,
+      "tide_m": 1.54,
+      "delta_h_wind_m": 0.196,
+      "risk_index": 0.4589,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 17:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.5750000000000002,
+      "tide_m": 1.5435,
+      "delta_h_wind_m": 0.1939,
+      "risk_index": 0.4586,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 17:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.7916666666666667,
+      "tide_m": 1.547,
+      "delta_h_wind_m": 0.1919,
+      "risk_index": 0.4584,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 17:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.0166666666666666,
+      "tide_m": 1.5505,
+      "delta_h_wind_m": 0.1898,
+      "risk_index": 0.4582,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 17:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.25,
+      "tide_m": 1.554,
+      "delta_h_wind_m": 0.1878,
+      "risk_index": 0.4581,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 17:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.4916666666666667,
+      "tide_m": 1.5574999999999999,
+      "delta_h_wind_m": 0.1858,
+      "risk_index": 0.458,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 17:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.7416666666666667,
+      "tide_m": 1.561,
+      "delta_h_wind_m": 0.1838,
+      "risk_index": 0.458,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 17:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 3.0,
+      "tide_m": 1.56,
+      "delta_h_wind_m": 0.1818,
+      "risk_index": 0.4573,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 17:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 3.2666666666666666,
+      "tide_m": 1.559,
+      "delta_h_wind_m": 0.1798,
+      "risk_index": 0.4566,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 17:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 3.541666666666667,
+      "tide_m": 1.5579999999999998,
+      "delta_h_wind_m": 0.1778,
+      "risk_index": 0.456,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 17:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 3.825,
+      "tide_m": 1.557,
+      "delta_h_wind_m": 0.1758,
+      "risk_index": 0.4555,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 17:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 4.116666666666667,
+      "tide_m": 1.556,
+      "delta_h_wind_m": 0.1738,
+      "risk_index": 0.4549,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 18:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 4.416666666666667,
+      "tide_m": 1.555,
+      "delta_h_wind_m": 0.1719,
+      "risk_index": 0.4545,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 18:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 4.691666666666666,
+      "tide_m": 1.5499999999999998,
+      "delta_h_wind_m": 0.1754,
+      "risk_index": 0.4578,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 18:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 4.941666666666666,
+      "tide_m": 1.545,
+      "delta_h_wind_m": 0.1789,
+      "risk_index": 0.4611,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 18:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 5.166666666666667,
+      "tide_m": 1.5399999999999998,
+      "delta_h_wind_m": 0.1824,
+      "risk_index": 0.4642,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 18:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 5.366666666666666,
+      "tide_m": 1.535,
+      "delta_h_wind_m": 0.1858,
+      "risk_index": 0.4671,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 18:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 5.541666666666667,
+      "tide_m": 1.5299999999999998,
+      "delta_h_wind_m": 0.1892,
+      "risk_index": 0.4699,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 18:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 5.691666666666666,
+      "tide_m": 1.525,
+      "delta_h_wind_m": 0.1925,
+      "risk_index": 0.4725,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 18:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 5.816666666666666,
+      "tide_m": 1.5163333333333333,
+      "delta_h_wind_m": 0.1957,
+      "risk_index": 0.4744,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 18:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 5.916666666666667,
+      "tide_m": 1.5076666666666667,
+      "delta_h_wind_m": 0.1989,
+      "risk_index": 0.4761,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 18:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 5.991666666666666,
+      "tide_m": 1.499,
+      "delta_h_wind_m": 0.202,
+      "risk_index": 0.4761,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 18:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.041666666666667,
+      "tide_m": 1.4903333333333333,
+      "delta_h_wind_m": 0.205,
+      "risk_index": 0.4749,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 18:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.4816666666666667,
+      "delta_h_wind_m": 0.2079,
+      "risk_index": 0.4737,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 19:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.473,
+      "delta_h_wind_m": 0.2108,
+      "risk_index": 0.4723,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 19:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.4616666666666667,
+      "delta_h_wind_m": 0.2044,
+      "risk_index": 0.4706,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 19:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.4503333333333335,
+      "delta_h_wind_m": 0.1981,
+      "risk_index": 0.4672,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 19:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.439,
+      "delta_h_wind_m": 0.192,
+      "risk_index": 0.4603,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 19:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.4276666666666666,
+      "delta_h_wind_m": 0.1859,
+      "risk_index": 0.4535,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 19:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.4163333333333334,
+      "delta_h_wind_m": 0.1799,
+      "risk_index": 0.4467,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 19:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.405,
+      "delta_h_wind_m": 0.174,
+      "risk_index": 0.44,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 19:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.392,
+      "delta_h_wind_m": 0.1681,
+      "risk_index": 0.4331,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 19:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.379,
+      "delta_h_wind_m": 0.1624,
+      "risk_index": 0.4263,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 19:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.366,
+      "delta_h_wind_m": 0.1568,
+      "risk_index": 0.4196,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 19:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.353,
+      "delta_h_wind_m": 0.1513,
+      "risk_index": 0.413,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 19:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.3399999999999999,
+      "delta_h_wind_m": 0.1458,
+      "risk_index": 0.4064,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 20:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.327,
+      "delta_h_wind_m": 0.1405,
+      "risk_index": 0.3999,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 20:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.3133333333333332,
+      "delta_h_wind_m": 0.1405,
+      "risk_index": 0.3978,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 20:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.2996666666666667,
+      "delta_h_wind_m": 0.1406,
+      "risk_index": 0.3957,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 20:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.286,
+      "delta_h_wind_m": 0.1406,
+      "risk_index": 0.3936,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 20:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.2723333333333333,
+      "delta_h_wind_m": 0.1407,
+      "risk_index": 0.3915,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 20:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.2586666666666668,
+      "delta_h_wind_m": 0.1407,
+      "risk_index": 0.3894,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 20:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.245,
+      "delta_h_wind_m": 0.1408,
+      "risk_index": 0.3873,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 20:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.2320000000000002,
+      "delta_h_wind_m": 0.1408,
+      "risk_index": 0.3854,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 20:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.219,
+      "delta_h_wind_m": 0.1409,
+      "risk_index": 0.3834,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 20:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.206,
+      "delta_h_wind_m": 0.1409,
+      "risk_index": 0.3814,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 20:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.193,
+      "delta_h_wind_m": 0.141,
+      "risk_index": 0.3794,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 20:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.1800000000000002,
+      "delta_h_wind_m": 0.141,
+      "risk_index": 0.3774,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 21:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.167,
+      "delta_h_wind_m": 0.141,
+      "risk_index": 0.3754,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 21:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.1555,
+      "delta_h_wind_m": 0.1422,
+      "risk_index": 0.3745,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 21:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.1440000000000001,
+      "delta_h_wind_m": 0.1433,
+      "risk_index": 0.3737,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 21:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.1325,
+      "delta_h_wind_m": 0.1444,
+      "risk_index": 0.3728,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 21:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.121,
+      "delta_h_wind_m": 0.1456,
+      "risk_index": 0.3719,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 21:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.1095000000000002,
+      "delta_h_wind_m": 0.1467,
+      "risk_index": 0.3711,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 21:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.098,
+      "delta_h_wind_m": 0.1478,
+      "risk_index": 0.3702,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 21:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.0890000000000002,
+      "delta_h_wind_m": 0.1489,
+      "risk_index": 0.3697,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 21:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.08,
+      "delta_h_wind_m": 0.15,
+      "risk_index": 0.3693,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 21:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.0710000000000002,
+      "delta_h_wind_m": 0.1511,
+      "risk_index": 0.3688,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 21:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.062,
+      "delta_h_wind_m": 0.1522,
+      "risk_index": 0.3683,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 21:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.0530000000000002,
+      "delta_h_wind_m": 0.1533,
+      "risk_index": 0.3678,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 22:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.044,
+      "delta_h_wind_m": 0.1545,
+      "risk_index": 0.3673,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 22:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.0381666666666667,
+      "delta_h_wind_m": 0.1528,
+      "risk_index": 0.365,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 22:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.0323333333333333,
+      "delta_h_wind_m": 0.1512,
+      "risk_index": 0.3628,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 22:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.0265,
+      "delta_h_wind_m": 0.1495,
+      "risk_index": 0.3605,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 22:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.0206666666666666,
+      "delta_h_wind_m": 0.1479,
+      "risk_index": 0.3582,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 22:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.0148333333333333,
+      "delta_h_wind_m": 0.1463,
+      "risk_index": 0.356,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 22:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.009,
+      "delta_h_wind_m": 0.1447,
+      "risk_index": 0.3537,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 22:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.007,
+      "delta_h_wind_m": 0.1431,
+      "risk_index": 0.3521,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 22:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.005,
+      "delta_h_wind_m": 0.1415,
+      "risk_index": 0.3504,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 22:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.003,
+      "delta_h_wind_m": 0.1399,
+      "risk_index": 0.3488,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-28 22:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 1.001,
+      "delta_h_wind_m": 0.1383,
+      "risk_index": 0.3472,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-28 22:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 0.999,
+      "delta_h_wind_m": 0.1367,
+      "risk_index": 0.3455,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-28 23:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.066666666666666,
+      "tide_m": 0.997,
+      "delta_h_wind_m": 0.1352,
+      "risk_index": 0.3439,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-28 23:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.075,
+      "tide_m": 0.9988333333333334,
+      "delta_h_wind_m": 0.1531,
+      "risk_index": 0.3592,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 23:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.091666666666667,
+      "tide_m": 1.0006666666666666,
+      "delta_h_wind_m": 0.172,
+      "risk_index": 0.3753,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 23:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.116666666666666,
+      "tide_m": 1.0025,
+      "delta_h_wind_m": 0.192,
+      "risk_index": 0.3923,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 23:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.1499999999999995,
+      "tide_m": 1.0043333333333333,
+      "delta_h_wind_m": 0.2129,
+      "risk_index": 0.3995,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 23:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.191666666666666,
+      "tide_m": 1.0061666666666667,
+      "delta_h_wind_m": 0.2349,
+      "risk_index": 0.3999,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 23:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.241666666666666,
+      "tide_m": 1.008,
+      "delta_h_wind_m": 0.2578,
+      "risk_index": 0.4004,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 23:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.3,
+      "tide_m": 1.0138333333333334,
+      "delta_h_wind_m": 0.2816,
+      "risk_index": 0.4016,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 23:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.366666666666666,
+      "tide_m": 1.0196666666666667,
+      "delta_h_wind_m": 0.3064,
+      "risk_index": 0.4028,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 23:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.441666666666666,
+      "tide_m": 1.0255,
+      "delta_h_wind_m": 0.332,
+      "risk_index": 0.404,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 23:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.525,
+      "tide_m": 1.0313333333333332,
+      "delta_h_wind_m": 0.3585,
+      "risk_index": 0.4053,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-28 23:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.616666666666666,
+      "tide_m": 1.0371666666666666,
+      "delta_h_wind_m": 0.3858,
+      "risk_index": 0.4066,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 00:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.716666666666667,
+      "tide_m": 1.043,
+      "delta_h_wind_m": 0.414,
+      "risk_index": 0.408,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 00:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.816666666666666,
+      "tide_m": 1.0523333333333333,
+      "delta_h_wind_m": 0.3803,
+      "risk_index": 0.4099,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 00:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.916666666666667,
+      "tide_m": 1.0616666666666665,
+      "delta_h_wind_m": 0.348,
+      "risk_index": 0.4118,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 00:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 7.016666666666667,
+      "tide_m": 1.071,
+      "delta_h_wind_m": 0.3173,
+      "risk_index": 0.4137,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 00:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 7.116666666666666,
+      "tide_m": 1.0803333333333334,
+      "delta_h_wind_m": 0.288,
+      "risk_index": 0.4156,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 00:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 7.216666666666667,
+      "tide_m": 1.0896666666666666,
+      "delta_h_wind_m": 0.2603,
+      "risk_index": 0.4175,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 00:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 7.316666666666666,
+      "tide_m": 1.099,
+      "delta_h_wind_m": 0.234,
+      "risk_index": 0.4194,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 00:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 7.416666666666667,
+      "tide_m": 1.1113333333333333,
+      "delta_h_wind_m": 0.2092,
+      "risk_index": 0.4217,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 00:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 7.516666666666667,
+      "tide_m": 1.1236666666666666,
+      "delta_h_wind_m": 0.1859,
+      "risk_index": 0.4123,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 00:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 7.616666666666666,
+      "tide_m": 1.1360000000000001,
+      "delta_h_wind_m": 0.164,
+      "risk_index": 0.3965,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 00:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 7.716666666666667,
+      "tide_m": 1.1483333333333334,
+      "delta_h_wind_m": 0.1437,
+      "risk_index": 0.3819,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 00:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 7.816666666666666,
+      "tide_m": 1.1606666666666667,
+      "delta_h_wind_m": 0.1247,
+      "risk_index": 0.3685,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 01:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 7.916666666666667,
+      "tide_m": 1.173,
+      "delta_h_wind_m": 0.1073,
+      "risk_index": 0.3563,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 01:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 8.025,
+      "tide_m": 1.1875,
+      "delta_h_wind_m": 0.111,
+      "risk_index": 0.3621,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 01:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 8.141666666666667,
+      "tide_m": 1.202,
+      "delta_h_wind_m": 0.1147,
+      "risk_index": 0.368,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 01:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 8.266666666666667,
+      "tide_m": 1.2165,
+      "delta_h_wind_m": 0.1185,
+      "risk_index": 0.374,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 01:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 8.4,
+      "tide_m": 1.231,
+      "delta_h_wind_m": 0.1224,
+      "risk_index": 0.38,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 01:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 8.541666666666666,
+      "tide_m": 1.2455,
+      "delta_h_wind_m": 0.1262,
+      "risk_index": 0.3861,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 01:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 8.691666666666666,
+      "tide_m": 1.26,
+      "delta_h_wind_m": 0.1302,
+      "risk_index": 0.3923,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 01:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 8.85,
+      "tide_m": 1.2758333333333334,
+      "delta_h_wind_m": 0.1341,
+      "risk_index": 0.3988,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 01:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 9.016666666666667,
+      "tide_m": 1.2916666666666667,
+      "delta_h_wind_m": 0.1381,
+      "risk_index": 0.4053,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 01:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 9.191666666666666,
+      "tide_m": 1.3075,
+      "delta_h_wind_m": 0.1422,
+      "risk_index": 0.4119,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 01:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 9.375,
+      "tide_m": 1.3233333333333333,
+      "delta_h_wind_m": 0.1462,
+      "risk_index": 0.4186,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 01:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 9.566666666666666,
+      "tide_m": 1.3391666666666666,
+      "delta_h_wind_m": 0.1503,
+      "risk_index": 0.4253,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 02:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 9.766666666666667,
+      "tide_m": 1.355,
+      "delta_h_wind_m": 0.1544,
+      "risk_index": 0.4321,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 02:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 9.958333333333334,
+      "tide_m": 1.3708333333333333,
+      "delta_h_wind_m": 0.1576,
+      "risk_index": 0.438,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 02:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 10.141666666666667,
+      "tide_m": 1.3866666666666667,
+      "delta_h_wind_m": 0.1608,
+      "risk_index": 0.444,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 02:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 10.316666666666666,
+      "tide_m": 1.4024999999999999,
+      "delta_h_wind_m": 0.1639,
+      "risk_index": 0.4499,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 02:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 10.483333333333334,
+      "tide_m": 1.4183333333333332,
+      "delta_h_wind_m": 0.1672,
+      "risk_index": 0.4557,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 02:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 10.641666666666667,
+      "tide_m": 1.4341666666666666,
+      "delta_h_wind_m": 0.1704,
+      "risk_index": 0.4616,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 02:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 10.791666666666666,
+      "tide_m": 1.45,
+      "delta_h_wind_m": 0.1736,
+      "risk_index": 0.4674,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 02:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 10.933333333333334,
+      "tide_m": 1.4649999999999999,
+      "delta_h_wind_m": 0.1769,
+      "risk_index": 0.4731,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 02:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 11.066666666666666,
+      "tide_m": 1.48,
+      "delta_h_wind_m": 0.1801,
+      "risk_index": 0.4787,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 02:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 11.191666666666666,
+      "tide_m": 1.495,
+      "delta_h_wind_m": 0.1834,
+      "risk_index": 0.4844,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 02:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 11.308333333333334,
+      "tide_m": 1.51,
+      "delta_h_wind_m": 0.1867,
+      "risk_index": 0.49,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 02:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 11.416666666666666,
+      "tide_m": 1.525,
+      "delta_h_wind_m": 0.19,
+      "risk_index": 0.4955,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 03:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 11.516666666666667,
+      "tide_m": 1.54,
+      "delta_h_wind_m": 0.1933,
+      "risk_index": 0.5011,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 03:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 11.616666666666667,
+      "tide_m": 1.5528333333333333,
+      "delta_h_wind_m": 0.1839,
+      "risk_index": 0.4956,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 03:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 11.716666666666667,
+      "tide_m": 1.5656666666666668,
+      "delta_h_wind_m": 0.1746,
+      "risk_index": 0.4904,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 03:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 11.816666666666666,
+      "tide_m": 1.5785,
+      "delta_h_wind_m": 0.1657,
+      "risk_index": 0.4853,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 03:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 11.916666666666666,
+      "tide_m": 1.5913333333333333,
+      "delta_h_wind_m": 0.1569,
+      "risk_index": 0.4805,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 03:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 12.016666666666667,
+      "tide_m": 1.6041666666666667,
+      "delta_h_wind_m": 0.1484,
+      "risk_index": 0.4759,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 03:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 12.116666666666667,
+      "tide_m": 1.617,
+      "delta_h_wind_m": 0.1402,
+      "risk_index": 0.4714,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 03:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 12.216666666666667,
+      "tide_m": 1.6268333333333334,
+      "delta_h_wind_m": 0.1322,
+      "risk_index": 0.4667,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 03:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 12.316666666666666,
+      "tide_m": 1.6366666666666667,
+      "delta_h_wind_m": 0.1244,
+      "risk_index": 0.4622,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 03:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 12.416666666666668,
+      "tide_m": 1.6465,
+      "delta_h_wind_m": 0.1168,
+      "risk_index": 0.4579,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 03:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 12.516666666666667,
+      "tide_m": 1.6563333333333332,
+      "delta_h_wind_m": 0.1096,
+      "risk_index": 0.4538,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 03:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 12.616666666666667,
+      "tide_m": 1.6661666666666666,
+      "delta_h_wind_m": 0.1025,
+      "risk_index": 0.4499,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 04:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 12.716666666666667,
+      "tide_m": 1.676,
+      "delta_h_wind_m": 0.0957,
+      "risk_index": 0.4462,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 04:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 12.825000000000001,
+      "tide_m": 1.682,
+      "delta_h_wind_m": 0.0956,
+      "risk_index": 0.4476,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 04:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 12.941666666666666,
+      "tide_m": 1.688,
+      "delta_h_wind_m": 0.0956,
+      "risk_index": 0.449,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 04:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 13.066666666666666,
+      "tide_m": 1.694,
+      "delta_h_wind_m": 0.0955,
+      "risk_index": 0.4504,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 04:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 13.200000000000001,
+      "tide_m": 1.7,
+      "delta_h_wind_m": 0.0954,
+      "risk_index": 0.4519,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 04:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 13.341666666666667,
+      "tide_m": 1.706,
+      "delta_h_wind_m": 0.0954,
+      "risk_index": 0.4534,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 04:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 13.491666666666667,
+      "tide_m": 1.712,
+      "delta_h_wind_m": 0.0953,
+      "risk_index": 0.4549,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 04:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 13.65,
+      "tide_m": 1.7135,
+      "delta_h_wind_m": 0.0952,
+      "risk_index": 0.4557,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 04:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 13.816666666666666,
+      "tide_m": 1.715,
+      "delta_h_wind_m": 0.095,
+      "risk_index": 0.4566,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 04:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 13.991666666666667,
+      "tide_m": 1.7165,
+      "delta_h_wind_m": 0.0949,
+      "risk_index": 0.4575,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 04:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 14.175,
+      "tide_m": 1.718,
+      "delta_h_wind_m": 0.0948,
+      "risk_index": 0.4584,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 04:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 14.366666666666667,
+      "tide_m": 1.7195,
+      "delta_h_wind_m": 0.0946,
+      "risk_index": 0.4593,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 05:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 14.566666666666666,
+      "tide_m": 1.721,
+      "delta_h_wind_m": 0.0945,
+      "risk_index": 0.4603,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 05:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 14.766666666666667,
+      "tide_m": 1.7176666666666667,
+      "delta_h_wind_m": 0.0947,
+      "risk_index": 0.4608,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 05:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 14.966666666666667,
+      "tide_m": 1.7143333333333335,
+      "delta_h_wind_m": 0.0948,
+      "risk_index": 0.4613,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 05:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 15.166666666666668,
+      "tide_m": 1.711,
+      "delta_h_wind_m": 0.095,
+      "risk_index": 0.4618,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 05:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 15.366666666666667,
+      "tide_m": 1.7076666666666667,
+      "delta_h_wind_m": 0.0952,
+      "risk_index": 0.4623,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 05:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 15.566666666666666,
+      "tide_m": 1.7043333333333335,
+      "delta_h_wind_m": 0.0953,
+      "risk_index": 0.4628,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 05:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 15.766666666666667,
+      "tide_m": 1.701,
+      "delta_h_wind_m": 0.0954,
+      "risk_index": 0.4632,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 05:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 15.966666666666667,
+      "tide_m": 1.6926666666666668,
+      "delta_h_wind_m": 0.0955,
+      "risk_index": 0.4629,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 05:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 16.166666666666668,
+      "tide_m": 1.6843333333333335,
+      "delta_h_wind_m": 0.0956,
+      "risk_index": 0.4626,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 05:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 16.366666666666667,
+      "tide_m": 1.6760000000000002,
+      "delta_h_wind_m": 0.0957,
+      "risk_index": 0.4622,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 05:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 16.566666666666666,
+      "tide_m": 1.6676666666666666,
+      "delta_h_wind_m": 0.0958,
+      "risk_index": 0.4619,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 05:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 16.766666666666666,
+      "tide_m": 1.6593333333333333,
+      "delta_h_wind_m": 0.0959,
+      "risk_index": 0.4615,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 06:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 16.96666666666667,
+      "tide_m": 1.651,
+      "delta_h_wind_m": 0.0959,
+      "risk_index": 0.4611,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 06:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 17.175,
+      "tide_m": 1.6381666666666668,
+      "delta_h_wind_m": 0.0998,
+      "risk_index": 0.4632,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 06:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 17.391666666666666,
+      "tide_m": 1.6253333333333333,
+      "delta_h_wind_m": 0.1037,
+      "risk_index": 0.4654,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 06:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 17.616666666666667,
+      "tide_m": 1.6125,
+      "delta_h_wind_m": 0.1077,
+      "risk_index": 0.4677,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 06:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 17.85,
+      "tide_m": 1.5996666666666668,
+      "delta_h_wind_m": 0.1117,
+      "risk_index": 0.4701,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 06:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 18.09166666666667,
+      "tide_m": 1.5868333333333333,
+      "delta_h_wind_m": 0.1158,
+      "risk_index": 0.4726,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 06:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 18.34166666666667,
+      "tide_m": 1.574,
+      "delta_h_wind_m": 0.12,
+      "risk_index": 0.4751,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 06:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 18.6,
+      "tide_m": 1.557,
+      "delta_h_wind_m": 0.1243,
+      "risk_index": 0.4772,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 06:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 18.866666666666667,
+      "tide_m": 1.54,
+      "delta_h_wind_m": 0.1286,
+      "risk_index": 0.4793,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 06:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 19.141666666666666,
+      "tide_m": 1.5230000000000001,
+      "delta_h_wind_m": 0.1329,
+      "risk_index": 0.4815,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 06:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 19.425,
+      "tide_m": 1.506,
+      "delta_h_wind_m": 0.1374,
+      "risk_index": 0.4837,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 06:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 19.71666666666667,
+      "tide_m": 1.4889999999999999,
+      "delta_h_wind_m": 0.1419,
+      "risk_index": 0.4861,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 07:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 20.016666666666666,
+      "tide_m": 1.472,
+      "delta_h_wind_m": 0.1465,
+      "risk_index": 0.4886,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 07:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 20.308333333333334,
+      "tide_m": 1.4515,
+      "delta_h_wind_m": 0.143,
+      "risk_index": 0.4837,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 07:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 20.59166666666667,
+      "tide_m": 1.431,
+      "delta_h_wind_m": 0.1395,
+      "risk_index": 0.4789,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 07:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 20.866666666666667,
+      "tide_m": 1.4104999999999999,
+      "delta_h_wind_m": 0.1361,
+      "risk_index": 0.4741,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 07:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 21.133333333333333,
+      "tide_m": 1.39,
+      "delta_h_wind_m": 0.1327,
+      "risk_index": 0.4692,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 07:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 21.391666666666666,
+      "tide_m": 1.3695,
+      "delta_h_wind_m": 0.1294,
+      "risk_index": 0.4644,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 07:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 21.641666666666666,
+      "tide_m": 1.349,
+      "delta_h_wind_m": 0.1261,
+      "risk_index": 0.4595,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 07:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 21.883333333333333,
+      "tide_m": 1.326,
+      "delta_h_wind_m": 0.1229,
+      "risk_index": 0.4543,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 07:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 22.116666666666667,
+      "tide_m": 1.303,
+      "delta_h_wind_m": 0.1197,
+      "risk_index": 0.449,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 07:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 22.34166666666667,
+      "tide_m": 1.28,
+      "delta_h_wind_m": 0.1165,
+      "risk_index": 0.4438,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 07:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 22.558333333333334,
+      "tide_m": 1.2570000000000001,
+      "delta_h_wind_m": 0.1134,
+      "risk_index": 0.4386,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 07:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 22.766666666666666,
+      "tide_m": 1.234,
+      "delta_h_wind_m": 0.1103,
+      "risk_index": 0.4333,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 08:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 22.96666666666667,
+      "tide_m": 1.211,
+      "delta_h_wind_m": 0.1073,
+      "risk_index": 0.4281,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 08:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 23.166666666666668,
+      "tide_m": 1.1866666666666668,
+      "delta_h_wind_m": 0.1117,
+      "risk_index": 0.4288,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 08:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 23.366666666666667,
+      "tide_m": 1.1623333333333334,
+      "delta_h_wind_m": 0.1161,
+      "risk_index": 0.4296,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 08:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 23.566666666666666,
+      "tide_m": 1.138,
+      "delta_h_wind_m": 0.1206,
+      "risk_index": 0.4304,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 08:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 23.766666666666666,
+      "tide_m": 1.1136666666666666,
+      "delta_h_wind_m": 0.1251,
+      "risk_index": 0.4312,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 08:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 23.96666666666667,
+      "tide_m": 1.0893333333333333,
+      "delta_h_wind_m": 0.1296,
+      "risk_index": 0.4321,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 08:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 24.166666666666668,
+      "tide_m": 1.065,
+      "delta_h_wind_m": 0.1342,
+      "risk_index": 0.4329,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 08:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 24.366666666666667,
+      "tide_m": 1.0405,
+      "delta_h_wind_m": 0.1387,
+      "risk_index": 0.4338,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 08:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 24.566666666666666,
+      "tide_m": 1.016,
+      "delta_h_wind_m": 0.1433,
+      "risk_index": 0.4346,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 08:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 24.766666666666666,
+      "tide_m": 0.9915,
+      "delta_h_wind_m": 0.1479,
+      "risk_index": 0.4354,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 08:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 24.96666666666667,
+      "tide_m": 0.967,
+      "delta_h_wind_m": 0.1524,
+      "risk_index": 0.4363,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 08:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 25.166666666666668,
+      "tide_m": 0.9425,
+      "delta_h_wind_m": 0.1569,
+      "risk_index": 0.4371,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 09:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 25.366666666666667,
+      "tide_m": 0.918,
+      "delta_h_wind_m": 0.1614,
+      "risk_index": 0.4379,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 09:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 25.566666666666666,
+      "tide_m": 0.8943333333333334,
+      "delta_h_wind_m": 0.1619,
+      "risk_index": 0.4355,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 09:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 25.766666666666666,
+      "tide_m": 0.8706666666666667,
+      "delta_h_wind_m": 0.1623,
+      "risk_index": 0.433,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 09:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 25.96666666666667,
+      "tide_m": 0.847,
+      "delta_h_wind_m": 0.1628,
+      "risk_index": 0.4305,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 09:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 26.166666666666668,
+      "tide_m": 0.8233333333333334,
+      "delta_h_wind_m": 0.1632,
+      "risk_index": 0.4281,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 09:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 26.366666666666667,
+      "tide_m": 0.7996666666666667,
+      "delta_h_wind_m": 0.1637,
+      "risk_index": 0.4256,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 09:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 26.566666666666666,
+      "tide_m": 0.776,
+      "delta_h_wind_m": 0.1641,
+      "risk_index": 0.4232,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 09:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 26.766666666666666,
+      "tide_m": 0.7546666666666667,
+      "delta_h_wind_m": 0.1645,
+      "risk_index": 0.4211,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 09:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 26.96666666666667,
+      "tide_m": 0.7333333333333334,
+      "delta_h_wind_m": 0.165,
+      "risk_index": 0.419,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 09:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 27.166666666666668,
+      "tide_m": 0.712,
+      "delta_h_wind_m": 0.1654,
+      "risk_index": 0.4169,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 09:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 27.366666666666667,
+      "tide_m": 0.6906666666666667,
+      "delta_h_wind_m": 0.1659,
+      "risk_index": 0.4148,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 09:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 27.566666666666666,
+      "tide_m": 0.6693333333333333,
+      "delta_h_wind_m": 0.1663,
+      "risk_index": 0.4127,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 10:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 27.766666666666666,
+      "tide_m": 0.648,
+      "delta_h_wind_m": 0.1668,
+      "risk_index": 0.4107,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 10:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 27.983333333333334,
+      "tide_m": 0.6298333333333334,
+      "delta_h_wind_m": 0.1707,
+      "risk_index": 0.4121,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 10:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 28.21666666666667,
+      "tide_m": 0.6116666666666667,
+      "delta_h_wind_m": 0.1747,
+      "risk_index": 0.4136,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 10:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 28.46666666666667,
+      "tide_m": 0.5935,
+      "delta_h_wind_m": 0.1788,
+      "risk_index": 0.4152,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 10:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 28.733333333333334,
+      "tide_m": 0.5753333333333334,
+      "delta_h_wind_m": 0.1828,
+      "risk_index": 0.4169,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 10:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 29.016666666666666,
+      "tide_m": 0.5571666666666667,
+      "delta_h_wind_m": 0.187,
+      "risk_index": 0.4188,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 10:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 29.316666666666666,
+      "tide_m": 0.539,
+      "delta_h_wind_m": 0.1911,
+      "risk_index": 0.4207,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 10:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 29.633333333333333,
+      "tide_m": 0.525,
+      "delta_h_wind_m": 0.1954,
+      "risk_index": 0.4234,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 10:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 29.96666666666667,
+      "tide_m": 0.511,
+      "delta_h_wind_m": 0.1996,
+      "risk_index": 0.4263,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 10:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 30.316666666666666,
+      "tide_m": 0.497,
+      "delta_h_wind_m": 0.2039,
+      "risk_index": 0.4259,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 10:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 30.683333333333334,
+      "tide_m": 0.48300000000000004,
+      "delta_h_wind_m": 0.2083,
+      "risk_index": 0.4253,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 10:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 31.066666666666666,
+      "tide_m": 0.46900000000000003,
+      "delta_h_wind_m": 0.2127,
+      "risk_index": 0.4248,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 11:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 31.46666666666667,
+      "tide_m": 0.455,
+      "delta_h_wind_m": 0.2171,
+      "risk_index": 0.4244,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 11:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 31.858333333333334,
+      "tide_m": 0.44566666666666666,
+      "delta_h_wind_m": 0.218,
+      "risk_index": 0.4246,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 11:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 32.24166666666667,
+      "tide_m": 0.43633333333333335,
+      "delta_h_wind_m": 0.219,
+      "risk_index": 0.4249,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 11:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 32.61666666666667,
+      "tide_m": 0.427,
+      "delta_h_wind_m": 0.2199,
+      "risk_index": 0.425,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 11:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 32.983333333333334,
+      "tide_m": 0.4176666666666667,
+      "delta_h_wind_m": 0.2209,
+      "risk_index": 0.4252,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 11:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 33.34166666666667,
+      "tide_m": 0.4083333333333333,
+      "delta_h_wind_m": 0.2218,
+      "risk_index": 0.4253,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 11:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 33.69166666666667,
+      "tide_m": 0.399,
+      "delta_h_wind_m": 0.2228,
+      "risk_index": 0.4255,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 11:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 34.03333333333333,
+      "tide_m": 0.395,
+      "delta_h_wind_m": 0.2237,
+      "risk_index": 0.427,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 11:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 34.36666666666667,
+      "tide_m": 0.391,
+      "delta_h_wind_m": 0.2246,
+      "risk_index": 0.4285,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 11:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 34.69166666666667,
+      "tide_m": 0.387,
+      "delta_h_wind_m": 0.2256,
+      "risk_index": 0.4299,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 11:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.00833333333333,
+      "tide_m": 0.383,
+      "delta_h_wind_m": 0.2265,
+      "risk_index": 0.4313,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 11:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.31666666666667,
+      "tide_m": 0.379,
+      "delta_h_wind_m": 0.2275,
+      "risk_index": 0.4326,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 12:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.61666666666667,
+      "tide_m": 0.375,
+      "delta_h_wind_m": 0.2284,
+      "risk_index": 0.4339,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 12:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.90833333333333,
+      "tide_m": 0.37616666666666665,
+      "delta_h_wind_m": 0.2258,
+      "risk_index": 0.4352,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 12:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.19166666666667,
+      "tide_m": 0.37733333333333335,
+      "delta_h_wind_m": 0.2232,
+      "risk_index": 0.4365,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 12:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.46666666666667,
+      "tide_m": 0.3785,
+      "delta_h_wind_m": 0.2206,
+      "risk_index": 0.4377,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 12:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.733333333333334,
+      "tide_m": 0.37966666666666665,
+      "delta_h_wind_m": 0.218,
+      "risk_index": 0.4388,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 12:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.99166666666667,
+      "tide_m": 0.38083333333333336,
+      "delta_h_wind_m": 0.2155,
+      "risk_index": 0.44,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 12:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 37.24166666666667,
+      "tide_m": 0.382,
+      "delta_h_wind_m": 0.2129,
+      "risk_index": 0.4411,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 12:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 37.483333333333334,
+      "tide_m": 0.3883333333333333,
+      "delta_h_wind_m": 0.2104,
+      "risk_index": 0.4421,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 12:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 37.71666666666667,
+      "tide_m": 0.39466666666666667,
+      "delta_h_wind_m": 0.2078,
+      "risk_index": 0.4431,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 12:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 37.94166666666667,
+      "tide_m": 0.401,
+      "delta_h_wind_m": 0.2053,
+      "risk_index": 0.4443,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 12:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 38.15833333333333,
+      "tide_m": 0.4073333333333333,
+      "delta_h_wind_m": 0.2028,
+      "risk_index": 0.4462,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 12:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 38.36666666666667,
+      "tide_m": 0.4136666666666666,
+      "delta_h_wind_m": 0.2004,
+      "risk_index": 0.4481,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 13:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 38.56666666666667,
+      "tide_m": 0.42,
+      "delta_h_wind_m": 0.1979,
+      "risk_index": 0.4482,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 13:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 38.75,
+      "tide_m": 0.4308333333333333,
+      "delta_h_wind_m": 0.1977,
+      "risk_index": 0.4506,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 13:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 38.916666666666664,
+      "tide_m": 0.44166666666666665,
+      "delta_h_wind_m": 0.1976,
+      "risk_index": 0.4529,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 13:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.06666666666667,
+      "tide_m": 0.4525,
+      "delta_h_wind_m": 0.1974,
+      "risk_index": 0.4551,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 13:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.2,
+      "tide_m": 0.4633333333333333,
+      "delta_h_wind_m": 0.1972,
+      "risk_index": 0.4572,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 13:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.31666666666667,
+      "tide_m": 0.4741666666666666,
+      "delta_h_wind_m": 0.197,
+      "risk_index": 0.4592,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 13:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.416666666666664,
+      "tide_m": 0.485,
+      "delta_h_wind_m": 0.1968,
+      "risk_index": 0.4612,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 13:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.5,
+      "tide_m": 0.5001666666666666,
+      "delta_h_wind_m": 0.1966,
+      "risk_index": 0.4637,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 13:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.56666666666667,
+      "tide_m": 0.5153333333333333,
+      "delta_h_wind_m": 0.1964,
+      "risk_index": 0.4662,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 13:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.61666666666667,
+      "tide_m": 0.5305,
+      "delta_h_wind_m": 0.1961,
+      "risk_index": 0.4686,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 13:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.65,
+      "tide_m": 0.5456666666666666,
+      "delta_h_wind_m": 0.1959,
+      "risk_index": 0.4709,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 13:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.666666666666664,
+      "tide_m": 0.5608333333333333,
+      "delta_h_wind_m": 0.1956,
+      "risk_index": 0.4731,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 14:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.666666666666664,
+      "tide_m": 0.576,
+      "delta_h_wind_m": 0.1953,
+      "risk_index": 0.4753,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 14:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.675000000000004,
+      "tide_m": 0.5941666666666666,
+      "delta_h_wind_m": 0.1973,
+      "risk_index": 0.4798,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 14:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.69166666666667,
+      "tide_m": 0.6123333333333333,
+      "delta_h_wind_m": 0.1993,
+      "risk_index": 0.4844,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 14:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.71666666666667,
+      "tide_m": 0.6305,
+      "delta_h_wind_m": 0.2014,
+      "risk_index": 0.4879,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 14:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.75,
+      "tide_m": 0.6486666666666667,
+      "delta_h_wind_m": 0.2034,
+      "risk_index": 0.4909,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 14:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.791666666666664,
+      "tide_m": 0.6668333333333334,
+      "delta_h_wind_m": 0.2054,
+      "risk_index": 0.4939,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 14:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.84166666666667,
+      "tide_m": 0.685,
+      "delta_h_wind_m": 0.2075,
+      "risk_index": 0.497,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 14:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.9,
+      "tide_m": 0.7053333333333334,
+      "delta_h_wind_m": 0.2095,
+      "risk_index": 0.5004,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 14:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.96666666666667,
+      "tide_m": 0.7256666666666667,
+      "delta_h_wind_m": 0.2116,
+      "risk_index": 0.5039,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 14:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.041666666666664,
+      "tide_m": 0.7460000000000001,
+      "delta_h_wind_m": 0.2137,
+      "risk_index": 0.5074,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 14:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.125,
+      "tide_m": 0.7663333333333334,
+      "delta_h_wind_m": 0.2157,
+      "risk_index": 0.5109,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 14:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.21666666666667,
+      "tide_m": 0.7866666666666667,
+      "delta_h_wind_m": 0.2178,
+      "risk_index": 0.5145,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 15:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.31666666666667,
+      "tide_m": 0.807,
+      "delta_h_wind_m": 0.2199,
+      "risk_index": 0.5181,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 15:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.40833333333333,
+      "tide_m": 0.8285,
+      "delta_h_wind_m": 0.2138,
+      "risk_index": 0.5219,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 15:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.49166666666667,
+      "tide_m": 0.8500000000000001,
+      "delta_h_wind_m": 0.2077,
+      "risk_index": 0.5256,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 15:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.56666666666667,
+      "tide_m": 0.8715,
+      "delta_h_wind_m": 0.2017,
+      "risk_index": 0.5293,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 15:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.63333333333333,
+      "tide_m": 0.893,
+      "delta_h_wind_m": 0.1958,
+      "risk_index": 0.5294,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 15:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.69166666666667,
+      "tide_m": 0.9145000000000001,
+      "delta_h_wind_m": 0.1899,
+      "risk_index": 0.5282,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 15:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.74166666666667,
+      "tide_m": 0.936,
+      "delta_h_wind_m": 0.1842,
+      "risk_index": 0.527,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 15:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.78333333333333,
+      "tide_m": 0.9575,
+      "delta_h_wind_m": 0.1785,
+      "risk_index": 0.5258,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 15:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.81666666666667,
+      "tide_m": 0.979,
+      "delta_h_wind_m": 0.173,
+      "risk_index": 0.5247,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 15:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.84166666666667,
+      "tide_m": 1.0005,
+      "delta_h_wind_m": 0.1675,
+      "risk_index": 0.5236,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 15:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.858333333333334,
+      "tide_m": 1.022,
+      "delta_h_wind_m": 0.1621,
+      "risk_index": 0.5225,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 15:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.86666666666667,
+      "tide_m": 1.0434999999999999,
+      "delta_h_wind_m": 0.1568,
+      "risk_index": 0.5215,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 16:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.86666666666667,
+      "tide_m": 1.065,
+      "delta_h_wind_m": 0.1516,
+      "risk_index": 0.5205,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 16:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.86666666666667,
+      "tide_m": 1.0853333333333333,
+      "delta_h_wind_m": 0.1524,
+      "risk_index": 0.5244,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 16:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.86666666666667,
+      "tide_m": 1.1056666666666666,
+      "delta_h_wind_m": 0.1533,
+      "risk_index": 0.5282,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 16:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.86666666666667,
+      "tide_m": 1.1260000000000001,
+      "delta_h_wind_m": 0.154,
+      "risk_index": 0.5321,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 16:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.86666666666667,
+      "tide_m": 1.1463333333333334,
+      "delta_h_wind_m": 0.1548,
+      "risk_index": 0.5359,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 16:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.725,
+      "tide_m": 1.1666666666666667,
+      "delta_h_wind_m": 0.1556,
+      "risk_index": 0.5391,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 16:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.575,
+      "tide_m": 1.187,
+      "delta_h_wind_m": 0.1564,
+      "risk_index": 0.5422,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 16:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.416666666666664,
+      "tide_m": 1.2053333333333334,
+      "delta_h_wind_m": 0.1571,
+      "risk_index": 0.545,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 16:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.25,
+      "tide_m": 1.2236666666666667,
+      "delta_h_wind_m": 0.1578,
+      "risk_index": 0.5478,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 16:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 40.075,
+      "tide_m": 1.242,
+      "delta_h_wind_m": 0.1585,
+      "risk_index": 0.5505,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 16:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.891666666666666,
+      "tide_m": 1.2603333333333333,
+      "delta_h_wind_m": 0.1592,
+      "risk_index": 0.5531,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 16:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.7,
+      "tide_m": 1.2786666666666666,
+      "delta_h_wind_m": 0.1599,
+      "risk_index": 0.5557,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 17:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.5,
+      "tide_m": 1.297,
+      "delta_h_wind_m": 0.1606,
+      "risk_index": 0.5583,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 17:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.3,
+      "tide_m": 1.3123333333333334,
+      "delta_h_wind_m": 0.1533,
+      "risk_index": 0.5537,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 17:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 39.1,
+      "tide_m": 1.3276666666666666,
+      "delta_h_wind_m": 0.1461,
+      "risk_index": 0.5493,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 17:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 38.9,
+      "tide_m": 1.343,
+      "delta_h_wind_m": 0.1391,
+      "risk_index": 0.5449,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 17:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 38.7,
+      "tide_m": 1.3583333333333334,
+      "delta_h_wind_m": 0.1322,
+      "risk_index": 0.5407,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 17:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 38.5,
+      "tide_m": 1.3736666666666666,
+      "delta_h_wind_m": 0.1254,
+      "risk_index": 0.5366,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 17:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 38.3,
+      "tide_m": 1.389,
+      "delta_h_wind_m": 0.1188,
+      "risk_index": 0.5326,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 17:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 38.1,
+      "tide_m": 1.401,
+      "delta_h_wind_m": 0.1123,
+      "risk_index": 0.5282,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 17:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 37.900000000000006,
+      "tide_m": 1.413,
+      "delta_h_wind_m": 0.106,
+      "risk_index": 0.5239,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 17:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 37.7,
+      "tide_m": 1.425,
+      "delta_h_wind_m": 0.0999,
+      "risk_index": 0.5198,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 17:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 37.5,
+      "tide_m": 1.437,
+      "delta_h_wind_m": 0.0939,
+      "risk_index": 0.5158,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 17:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 37.300000000000004,
+      "tide_m": 1.449,
+      "delta_h_wind_m": 0.088,
+      "risk_index": 0.5119,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 18:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 37.1,
+      "tide_m": 1.461,
+      "delta_h_wind_m": 0.0824,
+      "risk_index": 0.5082,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 18:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.916666666666664,
+      "tide_m": 1.4691666666666667,
+      "delta_h_wind_m": 0.0795,
+      "risk_index": 0.5063,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 18:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.75,
+      "tide_m": 1.4773333333333334,
+      "delta_h_wind_m": 0.0766,
+      "risk_index": 0.5044,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 18:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.6,
+      "tide_m": 1.4855,
+      "delta_h_wind_m": 0.0738,
+      "risk_index": 0.5027,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 18:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.46666666666667,
+      "tide_m": 1.4936666666666667,
+      "delta_h_wind_m": 0.071,
+      "risk_index": 0.5011,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 18:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.35,
+      "tide_m": 1.5018333333333334,
+      "delta_h_wind_m": 0.0683,
+      "risk_index": 0.4996,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 18:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.25,
+      "tide_m": 1.51,
+      "delta_h_wind_m": 0.0656,
+      "risk_index": 0.4982,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 18:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.166666666666664,
+      "tide_m": 1.514,
+      "delta_h_wind_m": 0.063,
+      "risk_index": 0.4962,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 18:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.1,
+      "tide_m": 1.518,
+      "delta_h_wind_m": 0.0604,
+      "risk_index": 0.4944,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 18:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.050000000000004,
+      "tide_m": 1.522,
+      "delta_h_wind_m": 0.0579,
+      "risk_index": 0.4927,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 18:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.01666666666667,
+      "tide_m": 1.526,
+      "delta_h_wind_m": 0.0554,
+      "risk_index": 0.4911,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 18:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.53,
+      "delta_h_wind_m": 0.0529,
+      "risk_index": 0.4896,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 19:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.534,
+      "delta_h_wind_m": 0.0505,
+      "risk_index": 0.4883,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 19:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.5343333333333333,
+      "delta_h_wind_m": 0.0499,
+      "risk_index": 0.4878,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 19:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.5346666666666666,
+      "delta_h_wind_m": 0.0493,
+      "risk_index": 0.4873,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 19:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.5350000000000001,
+      "delta_h_wind_m": 0.0487,
+      "risk_index": 0.4869,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 19:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.5353333333333334,
+      "delta_h_wind_m": 0.048,
+      "risk_index": 0.4863,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 19:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.5356666666666667,
+      "delta_h_wind_m": 0.0473,
+      "risk_index": 0.4858,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 19:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.536,
+      "delta_h_wind_m": 0.0466,
+      "risk_index": 0.4853,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 19:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.5326666666666666,
+      "delta_h_wind_m": 0.0459,
+      "risk_index": 0.4842,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 19:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.5293333333333334,
+      "delta_h_wind_m": 0.0451,
+      "risk_index": 0.483,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 19:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.526,
+      "delta_h_wind_m": 0.0444,
+      "risk_index": 0.4819,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 19:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.5226666666666666,
+      "delta_h_wind_m": 0.0436,
+      "risk_index": 0.4807,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 19:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.5193333333333334,
+      "delta_h_wind_m": 0.0428,
+      "risk_index": 0.4795,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 20:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.516,
+      "delta_h_wind_m": 0.042,
+      "risk_index": 0.4783,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 20:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.5096666666666667,
+      "delta_h_wind_m": 0.0432,
+      "risk_index": 0.4784,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 20:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.5033333333333334,
+      "delta_h_wind_m": 0.0444,
+      "risk_index": 0.4784,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 20:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.4969999999999999,
+      "delta_h_wind_m": 0.0457,
+      "risk_index": 0.4784,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 20:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.4906666666666666,
+      "delta_h_wind_m": 0.047,
+      "risk_index": 0.4785,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 20:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.4843333333333333,
+      "delta_h_wind_m": 0.0482,
+      "risk_index": 0.4786,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 20:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.478,
+      "delta_h_wind_m": 0.0495,
+      "risk_index": 0.4787,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 20:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.4696666666666667,
+      "delta_h_wind_m": 0.0509,
+      "risk_index": 0.4785,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 20:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.4613333333333334,
+      "delta_h_wind_m": 0.0522,
+      "risk_index": 0.4783,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 20:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.4529999999999998,
+      "delta_h_wind_m": 0.0535,
+      "risk_index": 0.4781,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 20:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.4446666666666665,
+      "delta_h_wind_m": 0.0549,
+      "risk_index": 0.4779,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 20:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.4363333333333332,
+      "delta_h_wind_m": 0.0563,
+      "risk_index": 0.4778,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 21:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.428,
+      "delta_h_wind_m": 0.0577,
+      "risk_index": 0.4777,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 21:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.418,
+      "delta_h_wind_m": 0.0593,
+      "risk_index": 0.4774,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 21:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.408,
+      "delta_h_wind_m": 0.0608,
+      "risk_index": 0.4772,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 21:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.3980000000000001,
+      "delta_h_wind_m": 0.0624,
+      "risk_index": 0.4769,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 21:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.3880000000000001,
+      "delta_h_wind_m": 0.0641,
+      "risk_index": 0.4767,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 21:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.3780000000000001,
+      "delta_h_wind_m": 0.0657,
+      "risk_index": 0.4765,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 21:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.368,
+      "delta_h_wind_m": 0.0674,
+      "risk_index": 0.4763,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 21:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.3576666666666668,
+      "delta_h_wind_m": 0.069,
+      "risk_index": 0.4761,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 21:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.3473333333333335,
+      "delta_h_wind_m": 0.0708,
+      "risk_index": 0.4759,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 21:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.337,
+      "delta_h_wind_m": 0.0725,
+      "risk_index": 0.4758,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 21:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.3266666666666667,
+      "delta_h_wind_m": 0.0742,
+      "risk_index": 0.4756,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 21:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.3163333333333334,
+      "delta_h_wind_m": 0.076,
+      "risk_index": 0.4754,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 22:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.306,
+      "delta_h_wind_m": 0.0777,
+      "risk_index": 0.4753,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 22:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.296,
+      "delta_h_wind_m": 0.0771,
+      "risk_index": 0.4732,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 22:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.286,
+      "delta_h_wind_m": 0.0765,
+      "risk_index": 0.4712,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 22:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.276,
+      "delta_h_wind_m": 0.0759,
+      "risk_index": 0.4691,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 22:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.266,
+      "delta_h_wind_m": 0.0753,
+      "risk_index": 0.467,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 22:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.256,
+      "delta_h_wind_m": 0.0747,
+      "risk_index": 0.465,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 22:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.246,
+      "delta_h_wind_m": 0.0741,
+      "risk_index": 0.4629,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 22:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.2371666666666667,
+      "delta_h_wind_m": 0.0735,
+      "risk_index": 0.461,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 22:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.2283333333333333,
+      "delta_h_wind_m": 0.0729,
+      "risk_index": 0.4591,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 22:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.2195,
+      "delta_h_wind_m": 0.0722,
+      "risk_index": 0.4572,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 22:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.2106666666666668,
+      "delta_h_wind_m": 0.0716,
+      "risk_index": 0.4553,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 22:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.2018333333333333,
+      "delta_h_wind_m": 0.071,
+      "risk_index": 0.4534,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 23:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 36.0,
+      "tide_m": 1.193,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4515,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 23:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.99166666666667,
+      "tide_m": 1.1861666666666668,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4504,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 23:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.975,
+      "tide_m": 1.1793333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4493,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 23:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.95,
+      "tide_m": 1.1724999999999999,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4481,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 23:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.91666666666667,
+      "tide_m": 1.1656666666666666,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4469,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 23:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.875,
+      "tide_m": 1.1588333333333334,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4456,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 23:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.825,
+      "tide_m": 1.152,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4443,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 23:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.76666666666667,
+      "tide_m": 1.1475,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4434,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 23:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.7,
+      "tide_m": 1.143,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4424,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 23:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.625,
+      "tide_m": 1.1385,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4413,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 23:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.54166666666667,
+      "tide_m": 1.134,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4403,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-29 23:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.45,
+      "tide_m": 1.1295,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4392,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 00:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.35,
+      "tide_m": 1.125,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.438,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 00:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.25,
+      "tide_m": 1.1235,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4374,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 00:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.150000000000006,
+      "tide_m": 1.122,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4367,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 00:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 35.050000000000004,
+      "tide_m": 1.1205,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.436,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 00:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 34.95,
+      "tide_m": 1.119,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4353,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 00:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 34.85,
+      "tide_m": 1.1175000000000002,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4347,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 00:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 34.75,
+      "tide_m": 1.116,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.434,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 00:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 34.650000000000006,
+      "tide_m": 1.1175000000000002,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4338,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 00:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 34.550000000000004,
+      "tide_m": 1.119,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4336,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 00:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 34.45,
+      "tide_m": 1.1205,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4334,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 00:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 34.35,
+      "tide_m": 1.122,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4332,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 00:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 34.25,
+      "tide_m": 1.1235,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.433,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 01:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 34.150000000000006,
+      "tide_m": 1.125,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4328,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 01:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 34.04166666666667,
+      "tide_m": 1.1293333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.433,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 01:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 33.925000000000004,
+      "tide_m": 1.1336666666666666,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4332,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 01:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 33.800000000000004,
+      "tide_m": 1.138,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4333,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 01:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 33.66666666666667,
+      "tide_m": 1.1423333333333334,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4334,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 01:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 33.525000000000006,
+      "tide_m": 1.1466666666666667,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4334,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 01:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 33.375,
+      "tide_m": 1.151,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4335,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 01:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 33.21666666666667,
+      "tide_m": 1.158,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4339,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 01:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 33.050000000000004,
+      "tide_m": 1.165,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4342,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 01:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 32.875,
+      "tide_m": 1.1720000000000002,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4345,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 01:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 32.69166666666667,
+      "tide_m": 1.179,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4348,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 01:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 32.5,
+      "tide_m": 1.186,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4351,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 02:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 32.300000000000004,
+      "tide_m": 1.193,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4353,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 02:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 32.108333333333334,
+      "tide_m": 1.2018333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4359,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 02:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 31.925000000000004,
+      "tide_m": 1.2106666666666668,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4364,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 02:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 31.750000000000004,
+      "tide_m": 1.2195,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.437,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 02:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 31.583333333333336,
+      "tide_m": 1.2283333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4377,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 02:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 31.425000000000004,
+      "tide_m": 1.2371666666666667,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4384,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 02:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 31.275000000000002,
+      "tide_m": 1.246,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4391,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 02:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 31.133333333333336,
+      "tide_m": 1.2565,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4401,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 02:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 31.000000000000004,
+      "tide_m": 1.267,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4412,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 02:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 30.875000000000004,
+      "tide_m": 1.2774999999999999,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4423,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 02:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 30.758333333333336,
+      "tide_m": 1.288,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4434,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 02:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 30.650000000000002,
+      "tide_m": 1.2985,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4446,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 03:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 30.550000000000004,
+      "tide_m": 1.309,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4458,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 03:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 30.450000000000003,
+      "tide_m": 1.3198333333333334,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.447,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 03:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 30.35,
+      "tide_m": 1.3306666666666667,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4483,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 03:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 30.250000000000004,
+      "tide_m": 1.3415,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4495,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 03:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 30.150000000000002,
+      "tide_m": 1.3523333333333334,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4508,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 03:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 30.050000000000004,
+      "tide_m": 1.3631666666666669,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4521,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 03:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 29.950000000000003,
+      "tide_m": 1.374,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4533,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 03:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 29.85,
+      "tide_m": 1.3846666666666667,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4545,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 03:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 29.750000000000004,
+      "tide_m": 1.3953333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4558,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 03:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 29.650000000000002,
+      "tide_m": 1.4060000000000001,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.457,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 03:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 29.550000000000004,
+      "tide_m": 1.4166666666666667,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4582,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 03:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 29.450000000000003,
+      "tide_m": 1.4273333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4595,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 04:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 29.35,
+      "tide_m": 1.438,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4607,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 04:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 29.24166666666667,
+      "tide_m": 1.4473333333333334,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4617,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 04:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 29.125000000000004,
+      "tide_m": 1.4566666666666666,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4626,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 04:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 29.000000000000004,
+      "tide_m": 1.466,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4635,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 04:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 28.86666666666667,
+      "tide_m": 1.4753333333333334,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4644,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 04:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 28.725,
+      "tide_m": 1.4846666666666666,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4652,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 04:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 28.575000000000003,
+      "tide_m": 1.494,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.466,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 04:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 28.416666666666668,
+      "tide_m": 1.5011666666666668,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4665,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 04:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 28.250000000000004,
+      "tide_m": 1.5083333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4669,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 04:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 28.075000000000003,
+      "tide_m": 1.5154999999999998,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4672,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 04:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 27.89166666666667,
+      "tide_m": 1.5226666666666666,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4675,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 04:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 27.700000000000003,
+      "tide_m": 1.5298333333333334,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4678,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 05:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 27.500000000000004,
+      "tide_m": 1.537,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4681,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 05:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 27.300000000000004,
+      "tide_m": 1.5413333333333332,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4679,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 05:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 27.1,
+      "tide_m": 1.5456666666666665,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4677,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 05:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 26.900000000000002,
+      "tide_m": 1.5499999999999998,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4675,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 05:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 26.700000000000003,
+      "tide_m": 1.5543333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4673,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 05:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 26.500000000000004,
+      "tide_m": 1.5586666666666666,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4671,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 05:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 26.300000000000004,
+      "tide_m": 1.563,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4669,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 05:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 26.1,
+      "tide_m": 1.5638333333333332,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4661,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 05:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 25.900000000000002,
+      "tide_m": 1.5646666666666667,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4654,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 05:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 25.700000000000003,
+      "tide_m": 1.5655000000000001,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4646,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 05:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 25.500000000000004,
+      "tide_m": 1.5663333333333334,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4639,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 05:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 25.300000000000004,
+      "tide_m": 1.5671666666666666,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4632,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 06:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 25.1,
+      "tide_m": 1.568,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4624,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 06:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 24.89166666666667,
+      "tide_m": 1.5648333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.461,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 06:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 24.675000000000004,
+      "tide_m": 1.5616666666666668,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4596,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 06:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 24.450000000000003,
+      "tide_m": 1.5585,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4581,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 06:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 24.21666666666667,
+      "tide_m": 1.5553333333333332,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4566,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 06:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 23.975,
+      "tide_m": 1.5521666666666667,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.455,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 06:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 23.725,
+      "tide_m": 1.549,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4534,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 06:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 23.46666666666667,
+      "tide_m": 1.5416666666666665,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4511,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 06:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 23.200000000000003,
+      "tide_m": 1.5343333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4488,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 06:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 22.925000000000004,
+      "tide_m": 1.527,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4465,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 06:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 22.64166666666667,
+      "tide_m": 1.5196666666666665,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4441,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 06:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 22.35,
+      "tide_m": 1.5123333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4417,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 07:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 22.050000000000004,
+      "tide_m": 1.505,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4392,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 07:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 21.758333333333336,
+      "tide_m": 1.4936666666666665,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4362,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 07:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 21.475,
+      "tide_m": 1.4823333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4332,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 07:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 21.200000000000003,
+      "tide_m": 1.471,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4302,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 07:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 20.933333333333337,
+      "tide_m": 1.4596666666666667,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4272,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 07:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 20.675000000000004,
+      "tide_m": 1.4483333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4243,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 07:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 20.425000000000004,
+      "tide_m": 1.437,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4215,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 07:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 20.183333333333337,
+      "tide_m": 1.4216666666666666,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.418,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 07:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 19.950000000000003,
+      "tide_m": 1.4063333333333334,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4146,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 07:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 19.725,
+      "tide_m": 1.391,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4112,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 07:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 19.508333333333336,
+      "tide_m": 1.3756666666666666,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4079,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 07:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 19.300000000000004,
+      "tide_m": 1.3603333333333334,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4046,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 08:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 19.1,
+      "tide_m": 1.345,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.4013,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 08:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 18.900000000000002,
+      "tide_m": 1.3263333333333334,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3975,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 08:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 18.700000000000003,
+      "tide_m": 1.3076666666666668,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3937,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 08:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 18.500000000000004,
+      "tide_m": 1.2890000000000001,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3899,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 08:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 18.300000000000004,
+      "tide_m": 1.2703333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3861,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 08:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 18.1,
+      "tide_m": 1.2516666666666667,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3824,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 08:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 17.900000000000002,
+      "tide_m": 1.233,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3786,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 08:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 17.700000000000003,
+      "tide_m": 1.2118333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3744,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 08:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 17.500000000000004,
+      "tide_m": 1.1906666666666668,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3702,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 08:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 17.300000000000004,
+      "tide_m": 1.1695000000000002,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.366,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 08:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 17.1,
+      "tide_m": 1.1483333333333334,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3618,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 08:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 16.900000000000002,
+      "tide_m": 1.1271666666666667,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3577,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 09:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 16.700000000000003,
+      "tide_m": 1.106,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3535,
+      "risk_label": "🟡 MEDIUM"
+    },
+    {
+      "time": "2026-09-30 09:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 16.500000000000004,
+      "tide_m": 1.0831666666666668,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.349,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 09:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 16.300000000000004,
+      "tide_m": 1.0603333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3446,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 09:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 16.1,
+      "tide_m": 1.0375,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3401,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 09:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 15.900000000000002,
+      "tide_m": 1.0146666666666666,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3357,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 09:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 15.700000000000003,
+      "tide_m": 0.9918333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3313,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 09:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 15.500000000000002,
+      "tide_m": 0.969,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3268,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 09:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 15.300000000000002,
+      "tide_m": 0.9455,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3223,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 09:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 15.100000000000003,
+      "tide_m": 0.9219999999999999,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3177,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 09:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 14.900000000000002,
+      "tide_m": 0.8985,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3132,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 09:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 14.700000000000003,
+      "tide_m": 0.875,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3086,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 09:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 14.500000000000002,
+      "tide_m": 0.8514999999999999,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.3041,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 10:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 14.300000000000002,
+      "tide_m": 0.828,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2995,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 10:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 14.083333333333336,
+      "tide_m": 0.8048333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.295,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 10:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 13.850000000000003,
+      "tide_m": 0.7816666666666666,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2903,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 10:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 13.600000000000003,
+      "tide_m": 0.7585,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2856,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 10:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 13.333333333333336,
+      "tide_m": 0.7353333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2808,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 10:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 13.050000000000002,
+      "tide_m": 0.7121666666666666,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.276,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 10:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 12.750000000000002,
+      "tide_m": 0.689,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.271,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 10:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 12.433333333333335,
+      "tide_m": 0.6675,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2663,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 10:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 12.100000000000003,
+      "tide_m": 0.646,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2615,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 10:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 11.750000000000002,
+      "tide_m": 0.6245,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2566,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 10:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 11.383333333333336,
+      "tide_m": 0.603,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2516,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 10:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 11.000000000000002,
+      "tide_m": 0.5815,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2466,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 11:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 10.600000000000001,
+      "tide_m": 0.56,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2415,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 11:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 10.208333333333336,
+      "tide_m": 0.5411666666666667,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2368,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 11:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 9.825000000000003,
+      "tide_m": 0.5223333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2322,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 11:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 9.450000000000003,
+      "tide_m": 0.5035000000000001,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2276,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 11:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 9.083333333333336,
+      "tide_m": 0.4846666666666667,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2231,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 11:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 8.725000000000001,
+      "tide_m": 0.4658333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2186,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 11:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 8.375000000000002,
+      "tide_m": 0.447,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2141,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 11:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 8.033333333333335,
+      "tide_m": 0.43166666666666664,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2102,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 11:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 7.700000000000002,
+      "tide_m": 0.41633333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2063,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 11:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 7.375000000000002,
+      "tide_m": 0.401,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2025,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 11:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 7.058333333333335,
+      "tide_m": 0.38566666666666666,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.201,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 11:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.750000000000002,
+      "tide_m": 0.3703333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1996,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 12:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.450000000000002,
+      "tide_m": 0.355,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1983,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 12:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 6.158333333333336,
+      "tide_m": 0.344,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.197,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 12:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 5.875000000000003,
+      "tide_m": 0.33299999999999996,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1958,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 12:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 5.600000000000002,
+      "tide_m": 0.32199999999999995,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1946,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 12:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 5.333333333333336,
+      "tide_m": 0.311,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1934,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 12:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 5.075000000000002,
+      "tide_m": 0.3,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1923,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 12:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 4.825000000000002,
+      "tide_m": 0.289,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1912,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 12:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 4.583333333333336,
+      "tide_m": 0.2828333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1901,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 12:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 4.350000000000002,
+      "tide_m": 0.27666666666666667,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1891,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 12:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 4.125000000000003,
+      "tide_m": 0.27049999999999996,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1881,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 12:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 3.9083333333333354,
+      "tide_m": 0.2643333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1872,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 12:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 3.7000000000000024,
+      "tide_m": 0.25816666666666666,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1863,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 13:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 3.500000000000002,
+      "tide_m": 0.252,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1854,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 13:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 3.316666666666669,
+      "tide_m": 0.25116666666666665,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1846,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 13:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 3.150000000000002,
+      "tide_m": 0.25033333333333335,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1839,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 13:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 3.000000000000002,
+      "tide_m": 0.2495,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1832,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 13:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.866666666666669,
+      "tide_m": 0.24866666666666667,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1826,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 13:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.750000000000002,
+      "tide_m": 0.24783333333333332,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1821,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 13:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.650000000000002,
+      "tide_m": 0.247,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1817,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 13:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.5666666666666687,
+      "tide_m": 0.2515,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1813,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 13:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.500000000000002,
+      "tide_m": 0.256,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.181,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 13:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.4500000000000024,
+      "tide_m": 0.2605,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1808,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 13:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.4166666666666687,
+      "tide_m": 0.265,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1807,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 13:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.400000000000002,
+      "tide_m": 0.2695,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1806,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 14:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.400000000000002,
+      "tide_m": 0.274,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1806,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 14:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.391666666666669,
+      "tide_m": 0.28350000000000003,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1806,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 14:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.375000000000002,
+      "tide_m": 0.29300000000000004,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1805,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 14:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.3500000000000023,
+      "tide_m": 0.30250000000000005,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1804,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 14:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.316666666666669,
+      "tide_m": 0.312,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1802,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 14:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.275000000000002,
+      "tide_m": 0.3215,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.18,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 14:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.2250000000000023,
+      "tide_m": 0.331,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1798,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 14:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.1666666666666687,
+      "tide_m": 0.34500000000000003,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1796,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 14:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.1000000000000023,
+      "tide_m": 0.359,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1793,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 14:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 2.025000000000002,
+      "tide_m": 0.373,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.179,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 14:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.9416666666666689,
+      "tide_m": 0.387,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1786,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 14:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.850000000000002,
+      "tide_m": 0.40099999999999997,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1783,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 15:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.7500000000000022,
+      "tide_m": 0.415,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1801,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 15:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.6583333333333354,
+      "tide_m": 0.43316666666666664,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1825,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 15:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.5750000000000022,
+      "tide_m": 0.4513333333333333,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.185,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 15:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.5000000000000022,
+      "tide_m": 0.46950000000000003,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1875,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 15:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.4333333333333356,
+      "tide_m": 0.4876666666666667,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1901,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 15:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.3750000000000022,
+      "tide_m": 0.5058333333333334,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1926,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 15:30:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.3250000000000022,
+      "tide_m": 0.524,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1953,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 15:35:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.2833333333333354,
+      "tide_m": 0.545,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.1984,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 15:40:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.2500000000000022,
+      "tide_m": 0.5660000000000001,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2015,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 15:45:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.225000000000002,
+      "tide_m": 0.587,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2047,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 15:50:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.2083333333333355,
+      "tide_m": 0.608,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2079,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 15:55:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.2000000000000022,
+      "tide_m": 0.629,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2111,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 16:00:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.2000000000000022,
+      "tide_m": 0.65,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2144,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 16:05:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.2000000000000022,
+      "tide_m": 0.6731666666666667,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.218,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 16:10:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.2000000000000022,
+      "tide_m": 0.6963333333333334,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2216,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 16:15:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.2000000000000022,
+      "tide_m": 0.7195,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2253,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 16:20:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.2000000000000022,
+      "tide_m": 0.7426666666666667,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2289,
+      "risk_label": "🟢 LOW"
+    },
+    {
+      "time": "2026-09-30 16:25:00",
+      "water_level_m": 0.5,
+      "racc_24h": 1.2000000000000022,
+      "tide_m": 0.7658333333333334,
+      "delta_h_wind_m": 0.0704,
+      "risk_index": 0.2325,
+      "risk_label": "🟢 LOW"
+    }
+  ]
+}

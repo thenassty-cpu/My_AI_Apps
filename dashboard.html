@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flood Risk Dashboard</title>
+    <!-- โหลด Chart.js จากอินเทอร์เน็ต -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #121212; color: #ffffff; padding: 20px; }
+        .container { max-width: 1000px; margin: auto; }
+        .header-card { background: #1e1e1e; padding: 20px; border-radius: 10px; margin-bottom: 20px; border-left: 5px solid #4da6ff; }
+        .chart-container { background: #1e1e1e; padding: 20px; border-radius: 10px; height: 450px; }
+        .status-high { color: #ff4d4d; font-weight: bold; }
+        .status-medium { color: #ffcc00; font-weight: bold; }
+        .status-low { color: #00cc66; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header-card" id="summary-card">
+        <h2>🌊 3BB Box - Flood Risk Dashboard</h2>
+        <p>กำลังโหลดข้อมูลพยากรณ์...</p>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="riskChart"></canvas>
+    </div>
+</div>
+
+<script>
+    async function loadDashboard() {
+        try {
+            // ดึงข้อมูลจากไฟล์ JSON ที่ Python เพิ่งสร้างให้
+            const response = await fetch('dashboard_data.json');
+            const data = await response.json();
+            
+            // 1. อัปเดตข้อความ Header (ดึงค่า Alert ในอีก 24 ชม. ข้างหน้า)
+            const alert24h = data.alert_summary['24h'];
+            let statusClass = "status-low";
+            if(alert24h.label.includes("HIGH")) statusClass = "status-high";
+            else if(alert24h.label.includes("MEDIUM")) statusClass = "status-medium";
+
+            document.getElementById('summary-card').innerHTML = `
+                <h2>🌊 3BB Box - Flood Risk Dashboard</h2>
+                <p>อัปเดตล่าสุด: ${data.last_updated}</p>
+                <p>สถานะ 24 ชม. ข้างหน้า: <span class="${statusClass}">${alert24h.label} - ${alert24h.desc}</span></p>
+                <p>ความเสี่ยงสูงสุด (Peak): <b>${alert24h.peak_index}</b> ตอนเวลา ${alert24h.peak_time}</p>
+            `;
+
+            // 2. เตรียมข้อมูลวาดกราฟ
+            const timeline = data.timeline_48h;
+            // ตัดเอาเฉพาะเวลาชั่วโมง:นาที (HH:MM) มาโชว์แกนล่าง
+            const labels = timeline.map(row => row.time.substring(11, 16)); 
+            const riskData = timeline.map(row => row.risk_index);
+            const waterLevelData = timeline.map(row => row.water_level_m);
+
+            // 3. วาดกราฟด้วย Chart.js
+            const ctx = document.getElementById('riskChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'Risk Index (ดัชนีความเสี่ยง)',
+                            data: riskData,
+                            borderColor: '#ff4d4d',
+                            backgroundColor: 'rgba(255, 77, 77, 0.1)',
+                            borderWidth: 2,
+                            fill: true,
+                            yAxisID: 'y' // อิงแกนซ้าย
+                        },
+                        {
+                            label: 'Water Level (ระดับน้ำจริง - เมตร)',
+                            data: waterLevelData,
+                            borderColor: '#4da6ff',
+                            borderWidth: 2,
+                            borderDash: [5, 5], // เส้นประ
+                            tension: 0.4,
+                            yAxisID: 'y1' // อิงแกนขวา
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: { 
+                            type: 'linear', display: true, position: 'left', 
+                            title: { display: true, text: 'Risk Index (0 - 1.0)' },
+                            min: 0, max: 1.0 
+                        },
+                        y1: { 
+                            type: 'linear', display: true, position: 'right',
+                            title: { display: true, text: 'Water Level (m)' },
+                            grid: { drawOnChartArea: false } // ไม่ให้เส้นตารางทับกัน
+                        }
+                    }
+                }
+            });
+        } catch (error) {
+            document.getElementById('summary-card').innerHTML = `
+                <h2 style="color:#ff4d4d;">❌ ไม่สามารถโหลดข้อมูลได้</h2>
+                <p>กรุณาเปิดผ่าน Local Server แทนการดับเบิลคลิกไฟล์ตรงๆ</p>
+            `;
+            console.error("Fetch Error:", error);
+        }
+    }
+
+    loadDashboard();
+</script>
+
+</body>
+</html>

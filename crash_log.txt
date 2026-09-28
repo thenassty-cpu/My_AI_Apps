@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\ITss-Advice\Documents\GitHub\My_AI_Apps\Ultimate_BKK_Flood_Center.pyw", line 475, in task
+    html = urllib.request.urlopen(req, timeout=15).read().decode('utf-8')
+  File "C:\Program Files\Python310\lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\Python310\lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+  File "C:\Program Files\Python310\lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+  File "C:\Program Files\Python310\lib\urllib\request.py", line 563, in error
+    return self._call_chain(*args)
+  File "C:\Program Files\Python310\lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\Python310\lib\urllib\request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden

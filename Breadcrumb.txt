@@ -1,0 +1,18 @@
+[System State: Flood Risk Dashboard Prototype Done]
+ระบบพยากรณ์น้ำท่วม 4 เลเยอร์บน PC รันสำเร็จแล้ว (โครงสร้างพร้อมประกอบร่างกับระบบหลัก + ปรับ UX/UI):
+
+Backend (Python 4 Layers):
+
+L1: ดึง Open-Meteo API + โหลด tide_2026.json
+
+L2 (layer2_fusion.py): ฟังก์ชัน pull_water_level() (ADB หรือ fallback 0.5m บน PC) + แก้ปัญหา Timezone-naive จัดเรียง Resample ทุก 5 นาที
+
+L3 (layer3_risk.py): คำนวณ Risk Index (ฝน 24 ชม., ลม, น้ำหนุน, ระดับน้ำ) + เกณฑ์เตือนภัย 🔴/🟡/🟢
+
+L4 (layer4_export.py): ส่งออก dashboard_data.json และ Log ลง flood_data_ton.csv
+
+Frontend (Dashboard):
+
+ใช้ dashboard.html + Chart.js (Dual-axis chart แสดงความเสี่ยงคู่ระดับน้ำ)
+
+วิธีรัน: python -m http.server เปิดผ่าน http://localhost:8000/dashboard.html

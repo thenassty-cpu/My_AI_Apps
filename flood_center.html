@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ultimate BKK Flood Center V16 (Web Edition)</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0d1117; --card: #161b22; --card2: #1c2333; --border: #30363d;
+  --green: #2ecc71; --yellow: #f39c12; --red: #e74c3c; --blue: #58a6ff;
+  --orange: #e67e22; --purple: #a855f7; --cyan: #22d3ee;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Kanit', 'Tahoma', sans-serif; background: var(--bg); color: #e6edf3; min-height: 100vh; overflow-x: hidden; }
+
+/* ─── Header ─── */
+.app-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 20px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border-bottom: 1px solid var(--border);
+}
+.app-title { font-size: 20px; font-weight: 700; }
+.app-title span { color: var(--blue); }
+
+/* ─── Risk Banner ─── */
+.risk-banner {
+  display: flex; gap: 8px; padding: 10px 20px; background: var(--card);
+  border-bottom: 1px solid var(--border); overflow-x: auto;
+}
+.risk-pill {
+  display: flex; align-items: center; gap: 8px; padding: 8px 16px;
+  border-radius: 8px; background: var(--card2); border: 1px solid var(--border);
+  white-space: nowrap; font-size: 14px;
+}
+.risk-pill .risk-dot {
+  width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
+}
+.risk-pill .risk-val { font-weight: 700; font-size: 16px; }
+
+/* ─── Tabs ─── */
+.tab-bar {
+  display: flex; gap: 2px; padding: 0 20px;
+  background: var(--card); border-bottom: 1px solid var(--border); overflow-x: auto;
+}
+.tab-btn {
+  padding: 12px 20px; border: none; cursor: pointer;
+  font: 600 14px 'Kanit'; color: #8b949e; background: transparent;
+  border-bottom: 3px solid transparent; white-space: nowrap; transition: all .2s;
+}
+.tab-btn:hover { color: #e6edf3; }
+.tab-btn.active { color: var(--blue); border-bottom-color: var(--blue); }
+.tab-content { display: none; }
+.tab-content.active { display: flex; flex-wrap: wrap; gap: 12px; padding: 12px 20px; }
+
+/* ─── Layout ─── */
+.col-left { flex: 1 1 350px; display: flex; flex-direction: column; gap: 8px; }
+.col-right { flex: 2 1 450px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.card { background: var(--card); border-radius: 8px; padding: 12px; border: 1px solid var(--border); }
+.row2 { display: flex; gap: 8px; flex-wrap: wrap; }
+.row2 > .card { flex: 1 1 140px; text-align: center; }
+
+/* ─── Typography ─── */
+.lbl-sub { font-size: 12px; color: #8b949e; margin-bottom: 2px; }
+.val-big { font-size: 36px; font-weight: 700; line-height: 1.1; }
+.val-med { font-size: 24px; font-weight: 700; line-height: 1.1; }
+.trend { font-size: 12px; color: #8b949e; }
+.peak-stat { font-size: 12px; color: #8b949e; margin-top: 2px; }
+
+/* ─── Special Cards ─── */
+.card-home { text-align: center; border-left: 3px solid var(--blue); }
+.card-tide { font-size: 12px; font-weight: 600; color: #f1c40f; line-height: 1.5; }
+
+/* ─── Graph ─── */
+.graph-card { display: flex; flex-direction: column; }
+.graph-header {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 8px; flex-wrap: wrap; gap: 8px;
+}
+.graph-header-title { font-size: 14px; font-weight: 600; }
+.btn-group { display: flex; gap: 2px; }
+.seg-btn {
+  padding: 4px 10px; border: 1px solid var(--border); cursor: pointer;
+  font: 600 11px 'Kanit'; color: #8b949e; background: transparent; transition: all .15s;
+}
+.seg-btn:first-child { border-radius: 4px 0 0 4px; }
+.seg-btn:last-child { border-radius: 0 4px 4px 0; }
+.seg-btn.active { background: var(--blue); color: #fff; border-color: var(--blue); }
+.chart-wrap { min-height: 280px; position: relative; }
+
+/* ─── Risk Forecast Chart ─── */
+.risk-chart-wrap { min-height: 150px; position: relative; }
+
+/* ─── Footer ─── */
+.footer {
+  display: flex; align-items: center; gap: 8px; padding: 10px 15px;
+  background: var(--card); border-top: 1px solid var(--border); flex-wrap: wrap;
+}
+.footer .status { font-size: 12px; color: #8b949e; flex: 1 1 100%; min-width: 150px; }
+.btn {
+  padding: 6px 12px; border: none; border-radius: 6px; cursor: pointer;
+  font: 600 12px 'Kanit'; color: #fff; transition: opacity .15s; flex: 1 1 auto; text-align: center;
+}
+.btn:hover { opacity: .85; }
+.btn:disabled { opacity: .4; cursor: not-allowed; }
+.btn-blue { background: #2563eb; }
+.btn-purple { background: #7c3aed; }
+.btn-red { background: #dc2626; }
+.ip-input {
+  width: 110px; padding: 6px 8px; border-radius: 6px; border: 1px solid var(--border);
+  background: var(--bg); color: #e6edf3; font: 600 12px 'Kanit'; flex: 1 1 auto;
+}
+
+@media (max-width: 960px) {
+  .col-left { flex: 1 1 100%; }
+  .col-right { flex: 1 1 100%; }
+  .tab-content.active { flex-direction: column; }
+}
+</style>
+</head>
+<body>
+
+<!-- ═══════ HEADER ═══════ -->
+<div class="app-header">
+  <div class="app-title">🌊 Ultimate BKK <span>Flood Center</span> V16</div>
+  <div style="font-size:13px;color:#8b949e" id="headerClock">--</div>
+</div>
+
+<!-- ═══════ RISK BANNER (from dashboard_data.json) ═══════ -->
+<div class="risk-banner" id="riskBanner">
+  <div class="risk-pill"><span class="risk-dot" style="background:#555"></span> Risk Pipeline: <span class="risk-val" style="color:#8b949e">Loading...</span></div>
+</div>
+
+<!-- ═══════ TAB BAR ═══════ -->
+<div class="tab-bar" id="tabBar">
+  <button class="tab-btn active" data-tab="ton">🏠 ภาษีเจริญ (พี่ต้น)</button>
+  <button class="tab-btn" data-tab="dong">🏭 คลองสอง (เสี่ยโด่ง)</button>
+  <button class="tab-btn" data-tab="ball">🏡 พระยาสุเรนทร์ (บอล)</button>
+  <button class="tab-btn" data-tab="por">🏡 สายไหม 85 (ปอกะดั่น)</button>
+</div>
+
+<!-- ═══════ TAB PANELS ═══════ -->
+<div id="tabPanels"></div>
+
+<!-- ═══════ FOOTER ═══════ -->
+<div class="footer">
+  <span class="status" id="globalStatus">กำลังเตรียมข้อมูล...</span>
+  <button class="btn btn-blue" id="btnRefresh" onclick="fetchAll(true)">🔄 อัปเดตทุกแท็บ</button>
+  <button class="btn btn-purple" id="btnRunPipeline" onclick="runPipeline()">⚡ รัน Risk Pipeline</button>
+  <button class="btn" style="background:#10b981" id="btnScreenshot" onclick="takeScreenshot()">📸 แคปหน้าจอ</button>
+  <button class="btn btn-red" id="btnTrojan" onclick="syncTrojan()">🐎 ม้าโทรจัน</button>
+  <input type="text" class="ip-input" id="trojanIp" value="192.168.1.59" placeholder="IP กล่อง">
+</div>
+
+<script>
+// ══════════════════════════════════════════
+// CONFIG
+// ══════════════════════════════════════════
+const TABS = [
+  { id:"ton", titleHome:"🏠 คลองภาษีเจริญ (หน้าบ้านพี่ต้น)", titleG1:"ต้นน้ำ (หนองแขม)", titleG2:"กลางน้ำ (บางแค)", titleGraph:"📈 กราฟระดับน้ำ (ภาษีเจริญ)", csv:"flood_data_ton.csv", coords:[13.737,100.456], homeCode:"WL.PSC.01", g1Code:"WL.PSC.05", g2Code:"WL.PSC.02" },
+  { id:"dong", titleHome:"🏭 คลองสองสายใต้ (โกดังเสี่ยโด่ง)", titleG1:"กำแพง กทม. (คลองหกวา)", titleG2:"ปลายทางหลัก (แสนแสบ)", titleGraph:"📈 กราฟระดับน้ำ (คลอง 2)", csv:"flood_data_dong.csv", coords:[13.9569,100.6520], homeCode:"WL.SST.01", g1Code:"WL.KHW.01", g2Code:"WL.SSB.09" },
+  { id:"ball", titleHome:"🏡 พระยาสุเรนทร์ (บ้านคุณบอล)", titleG1:"ต้นน้ำ (พระยาสุเรนทร์)", titleG2:"ปลายทางระบายน้ำ (แสนแสบ)", titleGraph:"📈 กราฟระดับน้ำ (ตะวันออก)", csv:"flood_data_ball.csv", coords:[13.862383,100.695103], homeCode:"WL.SWA.01", g1Code:"WL.PSR.01", g2Code:"WL.SSB.09" },
+  { id:"por", titleHome:"🏡 สายไหม 85 (บ้านปอกะดั่น)", titleG1:"ต้นน้ำ (หกวา)", titleG2:"ปลายทาง (พระยาสุเรนทร์)", titleGraph:"📈 กราฟระดับน้ำ (สายไหม)", csv:"flood_data_por.csv", coords:[13.927,100.688], homeCode:"WL.KHW.01", g1Code:"WL.SST.01", g2Code:"WL.PSR.01" }
+];
+const COOLDOWN = 300;
+let lastFetchTime = 0, isFetching = false;
+let charts = {}, riskCharts = {};
+
+// ══════════════════════════════════════════
+// CLOCK
+// ══════════════════════════════════════════
+setInterval(() => {
+  const now = new Date();
+  document.getElementById("headerClock").textContent = now.toLocaleString("th-TH", { dateStyle:"long", timeStyle:"short" });
+}, 1000);
+
+// ══════════════════════════════════════════
+// BUILD DOM
+// ══════════════════════════════════════════
+(function buildTabs() {
+  const panels = document.getElementById("tabPanels");
+  TABS.forEach((t, i) => {
+    const active = i === 0 ? " active" : "";
+    panels.innerHTML += `
+    <div class="tab-content${active}" id="panel-${t.id}">
+      <div class="col-left">
+        <div class="row2">
+          <div class="card" style="text-align:center">
+            <div class="lbl-sub">${t.titleG1}</div>
+            <div class="val-med" id="${t.id}-g1-val">-- ม.</div>
+            <div class="trend" id="${t.id}-g1-trend">--</div>
+          </div>
+          <div class="card" style="text-align:center">
+            <div class="lbl-sub">${t.titleG2}</div>
+            <div class="val-med" id="${t.id}-g2-val">-- ม.</div>
+            <div class="trend" id="${t.id}-g2-trend">--</div>
+          </div>
+        </div>
+        <div class="card card-home">
+          <div class="lbl-sub" style="font-size:16px;font-weight:600;color:#e6edf3">${t.titleHome}</div>
+          <div class="val-big" id="${t.id}-home-val">--</div>
+          <div class="trend" id="${t.id}-home-trend">(รอโหลดข้อมูล...)</div>
+          <div class="peak-stat" id="${t.id}-home-peak">รอคำนวณสถิติ 24 ชม...</div>
+        </div>
+        <div class="row2">
+          <div class="card" style="text-align:center">
+            <div class="lbl-sub">☁️ ฝน 24 ชม. (พิกัดบ้าน)</div>
+            <div class="val-med" id="${t.id}-rain-val" style="color:var(--blue)">--%</div>
+            <div class="trend" id="${t.id}-rain-trend">ปริมาณสะสม: -- mm</div>
+          </div>
+          <div class="card" style="text-align:center">
+            <div class="lbl-sub">💡 เทียบน้ำนอกประตู</div>
+            <div id="${t.id}-info-val" style="font-size:16px;font-weight:600;color:var(--orange);margin-top:8px">ติดตามใกล้ชิด</div>
+          </div>
+        </div>
+        <div class="card card-tide">
+          <div class="lbl-sub" style="color:#8b949e">🌊 ตารางน้ำขึ้น-น้ำลง (กองทัพเรือ)</div>
+          <div id="${t.id}-tide-text">กำลังคำนวณ...</div>
+        </div>
+      </div>
+      <div class="col-right">
+        <div class="card graph-card">
+          <div class="graph-header">
+            <span class="graph-header-title">${t.titleGraph}</span>
+            <div class="btn-group">
+              <button class="seg-btn active" onclick="setZoom('${t.id}',24,this)">12 ชม.</button>
+              <button class="seg-btn" onclick="setZoom('${t.id}',48,this)">24 ชม.</button>
+              <button class="seg-btn" onclick="setZoom('${t.id}',96,this)">48 ชม.</button>
+            </div>
+          </div>
+          <div class="chart-wrap"><canvas id="chart-${t.id}"></canvas></div>
+        </div>
+        <div class="card">
+          <div class="graph-header">
+            <span class="graph-header-title">🎯 Risk Forecast 48h (Layer 3)</span>
+          </div>
+          <div class="risk-chart-wrap"><canvas id="risk-chart-${t.id}"></canvas></div>
+        </div>
+      </div>
+    </div>`;
+  });
+})();
+
+// ══════════════════════════════════════════
+// TAB SWITCHING
+// ══════════════════════════════════════════
+document.querySelectorAll(".tab-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".tab-content").forEach(p => p.classList.remove("active"));
+    btn.classList.add("active");
+    document.getElementById("panel-" + btn.dataset.tab).classList.add("active");
+    const c = charts[btn.dataset.tab];
+    if (c) setTimeout(() => { c.chart.resize(); }, 50);
+    const rc = riskCharts[btn.dataset.tab];
+    if (rc) setTimeout(() => rc.resize(), 50);
+  });
+});
+
+// ══════════════════════════════════════════
+// HELPERS
+// ══════════════════════════════════════════
+function statusColor(cls) {
+  if (!cls) return "#e6edf3";
+  if (cls.includes("success")) return "var(--green)";
+  if (cls.includes("warning")) return "var(--yellow)";
+  if (cls.includes("danger"))  return "var(--red)";
+  return "#e6edf3";
+}
+function riskDotColor(label) {
+  if (!label) return "#555";
+  if (label.includes("HIGH")) return "var(--red)";
+  if (label.includes("MEDIUM")) return "var(--yellow)";
+  return "var(--green)";
+}
+
+// ══════════════════════════════════════════
+// ZOOM
+// ══════════════════════════════════════════
+function setZoom(tabId, rows, btn) {
+  btn.parentElement.querySelectorAll(".seg-btn").forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
+  if (charts[tabId]) { charts[tabId].zoom = rows; loadCSV(tabId); }
+}
+
+// ══════════════════════════════════════════
+// CHART — CSV Water Level
+// ══════════════════════════════════════════
+function loadCSV(tabId) {
+  const tab = TABS.find(t => t.id === tabId);
+  Papa.parse(tab.csv, {
+    download: true, header: true, dynamicTyping: true,
+    complete: (res) => {
+      const zoom = charts[tabId]?.zoom || 24;
+      let rows = res.data.filter(r => r.time && r.home != null);
+      rows = rows.slice(-zoom);
+      if (!rows.length) return;
+
+      const labels = rows.map(r => r.time);
+      const homeData = rows.map(r => r.home);
+      const g1Data = rows.map(r => r.g1);
+
+      // Peak stat
+      const maxVal = Math.max(...homeData);
+      const curVal = homeData[homeData.length - 1];
+      const diffCm = (maxVal - curVal) * 100;
+      const peakEl = document.getElementById(tabId + "-home-peak");
+      if (diffCm > 0.5) {
+        peakEl.textContent = `📉 ลดจากจุดสูงสุด: ${diffCm.toFixed(0)} ซม.`;
+        peakEl.style.color = "var(--green)";
+      } else if (diffCm < -0.5) {
+        peakEl.textContent = `📈 สูงกว่าสถิติเดิม: ${Math.abs(diffCm).toFixed(0)} ซม.`;
+        peakEl.style.color = "var(--red)";
+      } else {
+        peakEl.textContent = "⚠️ ระดับน้ำแตะจุดพีกสุดของวัน!";
+        peakEl.style.color = "var(--yellow)";
+      }
+
+      if (charts[tabId]?.chart) charts[tabId].chart.destroy();
+      const ctx = document.getElementById("chart-" + tabId).getContext("2d");
+      const chart = new Chart(ctx, {
+        type: "line",
+        data: {
+          labels,
+          datasets: [
+            { label: "หน้าบ้าน/จุดหลัก", data: homeData, borderColor: "#e74c3c", backgroundColor: "rgba(231,76,60,0.06)", borderWidth: 2, pointRadius: 2.5, fill: true, tension: 0.3 },
+            { label: "จุดสกัด/ต้นน้ำ", data: g1Data, borderColor: "#f39c12", borderWidth: 2, pointRadius: 1.5, borderDash: [5,3], tension: 0.3 }
+          ]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: "#8b949e", font: { family: "Kanit", size: 12 } } } },
+          scales: {
+            x: {
+              ticks: { color: "#8b949e", font: { family: "Kanit", size: 10 }, maxRotation: 45,
+                callback: function(val) { const l = this.getLabelForValue(val); return l ? l.substring(11, 16) : ""; }
+              }, grid: { color: "#21262d" }
+            },
+            y: { ticks: { color: "#8b949e", font: { family: "Kanit" } }, grid: { color: "#21262d" },
+              title: { display: true, text: "ม. (รทก.)", color: "#8b949e", font: { family: "Kanit" } }
+            }
+          }
+        }
+      });
+      charts[tabId] = { chart, zoom };
+    },
+    error: () => {}
+  });
+}
+
+// ══════════════════════════════════════════
+// RISK PIPELINE — dashboard_data.json
+// ══════════════════════════════════════════
+async function loadRiskPipeline() {
+  try {
+    const r = await fetch("dashboard_data.json?t=" + Date.now());
+    const data = await r.json();
+
+    // Update Risk Banner
+    const banner = document.getElementById("riskBanner");
+    const s = data.alert_summary;
+    let html = "";
+    for (const [window, info] of Object.entries(s)) {
+      const dotColor = riskDotColor(info.label);
+      html += `<div class="risk-pill">
+        <span class="risk-dot" style="background:${dotColor}"></span>
+        ${window}: <span class="risk-val" style="color:${dotColor}">${info.label}</span>
+        <span style="color:#8b949e;font-size:12px">peak ${info.peak_index} @ ${info.peak_time}</span>
+      </div>`;
+    }
+    html += `<div class="risk-pill" style="margin-left:auto"><span style="color:#8b949e;font-size:12px">Pipeline: ${data.last_updated}</span></div>`;
+    banner.innerHTML = html;
+
+    // Draw Risk Forecast chart (only for first/active tab — same global data)
+    const timeline = data.timeline_48h;
+    if (!timeline || !timeline.length) return;
+
+    // Sample every 6 rows (= 30 min) to keep chart clean
+    const sampled = timeline.filter((_, i) => i % 6 === 0);
+    const rLabels = sampled.map(r => r.time ? r.time.substring(11, 16) : "");
+    const rData = sampled.map(r => r.risk_index);
+    const rWater = sampled.map(r => r.water_level_m);
+
+    TABS.forEach(tab => {
+      if (riskCharts[tab.id]) riskCharts[tab.id].destroy();
+      const ctx = document.getElementById("risk-chart-" + tab.id);
+      if (!ctx) return;
+      riskCharts[tab.id] = new Chart(ctx, {
+        type: "line",
+        data: {
+          labels: rLabels,
+          datasets: [
+            {
+              label: "Risk Index", data: rData, borderColor: "#a855f7",
+              backgroundColor: "rgba(168,85,247,0.08)", borderWidth: 2, pointRadius: 0,
+              fill: true, tension: 0.4, yAxisID: "y"
+            },
+            {
+              label: "Water Level (m)", data: rWater, borderColor: "#58a6ff",
+              borderWidth: 1.5, pointRadius: 0, borderDash: [4,3], tension: 0.4, yAxisID: "y1"
+            }
+          ]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: {
+            legend: { labels: { color: "#8b949e", font: { family: "Kanit", size: 11 } } },
+            annotation: {} // placeholder
+          },
+          scales: {
+            x: { ticks: { color: "#8b949e", font: { size: 10 }, maxRotation: 0 }, grid: { color: "#21262d" } },
+            y: { min: 0, max: 1, position: "left",
+              ticks: { color: "#8b949e", font: { size: 10 }, stepSize: 0.25 }, grid: { color: "#21262d" },
+              title: { display: true, text: "Risk", color: "#8b949e", font: { family: "Kanit", size: 11 } }
+            },
+            y1: { position: "right",
+              ticks: { color: "#8b949e", font: { size: 10 } }, grid: { drawOnChartArea: false },
+              title: { display: true, text: "Water (m)", color: "#8b949e", font: { family: "Kanit", size: 11 } }
+            }
+          }
+        }
+      });
+    });
+  } catch (e) {
+    console.warn("Risk pipeline load error:", e);
+    document.getElementById("riskBanner").innerHTML = `<div class="risk-pill"><span style="color:#8b949e">Risk Pipeline: ยังไม่มีข้อมูล (รัน layer4_export.py ก่อน)</span></div>`;
+  }
+}
+
+// ══════════════════════════════════════════
+// WATER LEVEL — flood_history_master.json
+// ══════════════════════════════════════════
+async function loadCache() {
+  try { const r = await fetch("flood_history_master.json?t=" + Date.now()); return await r.json(); }
+  catch { return null; }
+}
+
+function applyWaterUI(data, isCache) {
+  if (!data) return;
+  TABS.forEach(tab => {
+    const set = (prefix, code) => {
+      const c = data[code]; if (!c) return;
+      const valEl = document.getElementById(tab.id + "-" + prefix + "-val");
+      const trendEl = document.getElementById(tab.id + "-" + prefix + "-trend");
+      if (c.offline) {
+        valEl.textContent = c["in"] + " ม."; valEl.style.color = "#8b949e";
+        trendEl.textContent = "❌ กทม. ขัดข้อง"; trendEl.style.color = "var(--red)";
+      } else {
+        valEl.textContent = c["in"] + " ม."; valEl.style.color = statusColor(c.status);
+        trendEl.textContent = isCache ? "(Cache)" : "Live";
+      }
+    };
+    const hc = data[tab.homeCode];
+    if (hc) {
+      const hv = document.getElementById(tab.id + "-home-val");
+      const ht = document.getElementById(tab.id + "-home-trend");
+      hv.textContent = hc["in"] + " ม.";
+      hv.style.color = hc.offline ? "#8b949e" : statusColor(hc.status);
+      ht.textContent = hc.offline ? "❌ กทม. ขัดข้อง" : (isCache ? "(Cache)" : "Live ✓");
+      ht.style.color = hc.offline ? "var(--red)" : "#8b949e";
+
+      const infoEl = document.getElementById(tab.id + "-info-val");
+      if (!hc.offline) {
+        const vIn = parseFloat(hc["in"]), vOut = parseFloat(hc["out"]);
+        const diff = vOut - vIn;
+        if (diff > 0) { infoEl.textContent = `น้ำนอกสูงกว่า ${Math.abs(diff).toFixed(2)} ม.`; infoEl.style.color = "var(--red)"; }
+        else if (diff < 0) { infoEl.textContent = `น้ำในสูงกว่า ${Math.abs(diff).toFixed(2)} ม.`; infoEl.style.color = "var(--green)"; }
+        else { infoEl.textContent = "น้ำใน/นอก เท่ากัน"; infoEl.style.color = "var(--yellow)"; }
+      }
+    }
+    set("g1", tab.g1Code);
+    set("g2", tab.g2Code);
+  });
+  if (data.timestamp) {
+    document.getElementById("globalStatus").textContent = `อัปเดตล่าสุด: ${data.timestamp}${isCache ? " (Cache)" : ""}`;
+  }
+}
+
+// ══════════════════════════════════════════
+// RAIN (Open-Meteo)
+// ══════════════════════════════════════════
+async function fetchRain(tab) {
+  try {
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${tab.coords[0]}&longitude=${tab.coords[1]}&hourly=precipitation_probability,precipitation&forecast_days=2&timezone=Asia%2FBangkok`;
+    const d = await (await fetch(url)).json();
+    const hr = new Date().getHours();
+    const probs = d.hourly.precipitation_probability.slice(hr, hr + 24);
+    const precs = d.hourly.precipitation.slice(hr, hr + 24);
+    const times = d.hourly.time.slice(hr, hr + 24);
+    const maxProb = Math.max(...probs);
+    const totalPrec = precs.reduce((a, b) => a + b, 0);
+
+    document.getElementById(tab.id + "-rain-val").textContent = maxProb + "%";
+    const trendEl = document.getElementById(tab.id + "-rain-trend");
+    if (totalPrec > 0.1) {
+      const maxIdx = precs.indexOf(Math.max(...precs));
+      trendEl.textContent = `สะสม: ${totalPrec.toFixed(1)} mm | หนักสุด: ${times[maxIdx].slice(-5)} น.`;
+    } else {
+      trendEl.textContent = `สะสม: ${totalPrec.toFixed(1)} mm | ไม่มีแนวโน้มฝน`;
+    }
+  } catch (e) { console.warn("Rain error:", e); }
+}
+
+// ══════════════════════════════════════════
+// TIDE (tide_2026.json)
+// [Note จากณัฐถึง hai: ปรับ Logic การกรองข้อมูลใหม่ เพราะไฟล์ tide_2026.json 
+// ของเราไม่มี tag "event" เลยเปลี่ยนมาใช้ .reduce() หาค่า Max/Min ของวันแทน]
+// ══════════════════════════════════════════
+async function loadTide() {
+  try {
+    const data = await (await fetch("tide_2026.json")).json();
+    const now = new Date();
+    const todayStr = now.toLocaleDateString("th-TH", { day: "2-digit", month: "2-digit", year: "numeric" });
+    const tomorrowStr = new Date(now.getTime() + 86400000).toLocaleDateString("th-TH", { day: "2-digit", month: "2-digit", year: "numeric" });
+
+    const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const todayEnd = new Date(todayStart.getTime() + 86400000);
+    const tmrEnd = new Date(todayEnd.getTime() + 86400000);
+
+    const fmtT = iso => { const d = new Date(iso); return `${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`; };
+    
+    // ดึงเฉพาะข้อมูลของวันนี้และพรุ่งนี้
+    const todayData = data.filter(d => { const t = new Date(d.time); return t >= todayStart && t < todayEnd; });
+    const tmrData = data.filter(d => { const t = new Date(d.time); return t >= todayEnd && t < tmrEnd; });
+
+    // ใช้ reduce เพื่อหาค่าสูงสุด (Max) และต่ำสุด (Min) ของวัน
+    const highToday = todayData.reduce((prev, curr) => (prev.tide_m > curr.tide_m) ? prev : curr, todayData[0]);
+    const lowToday  = todayData.reduce((prev, curr) => (prev.tide_m < curr.tide_m) ? prev : curr, todayData[0]);
+    const nextHigh  = tmrData.reduce((prev, curr) => (prev.tide_m > curr.tide_m) ? prev : curr, tmrData[0]);
+
+    let html = "";
+    if (highToday) html += `🔴 สูงสุด (${todayStr}): ${fmtT(highToday.time)} น. (${highToday.tide_m.toFixed(2)} ม.)`;
+    if (lowToday)  html += `  |  🟢 ต่ำสุด: ${fmtT(lowToday.time)} น. (${lowToday.tide_m.toFixed(2)} ม.)`;
+    if (nextHigh)  html += `<br>⚠️ น้ำหนุนอีกรอบ (${tomorrowStr}): ${fmtT(nextHigh.time)} น. (${nextHigh.tide_m.toFixed(2)} ม.)`;
+
+    TABS.forEach(t => { document.getElementById(t.id + "-tide-text").innerHTML = html || "ไม่พบข้อมูล"; });
+  } catch(e) { 
+    console.error("Tide Load Error:", e);
+    TABS.forEach(t => { document.getElementById(t.id + "-tide-text").textContent = "ไม่สามารถโหลดตารางน้ำ"; }); 
+  }
+}
+
+// ══════════════════════════════════════════
+// MASTER FETCH
+// ══════════════════════════════════════════
+async function fetchAll(manual = false) {
+  if (manual && isFetching) return;
+  if (manual && lastFetchTime && (Date.now() / 1000 - lastFetchTime) < COOLDOWN) return;
+  isFetching = true;
+  const btn = document.getElementById("btnRefresh");
+  btn.disabled = true; btn.textContent = "⏳ กำลังดึง...";
+
+  await Promise.all(TABS.map(t => fetchRain(t)));
+  const cache = await loadCache();
+  applyWaterUI(cache, false);
+  TABS.forEach(t => loadCSV(t.id));
+  await loadTide();
+  await loadRiskPipeline();
+
+  lastFetchTime = Date.now() / 1000;
+  isFetching = false;
+  btn.disabled = false; btn.textContent = "🔄 อัปเดตทุกแท็บ";
+}
+
+// Cooldown timer
+setInterval(() => {
+  if (!isFetching && lastFetchTime > 0) {
+    const elapsed = Date.now() / 1000 - lastFetchTime;
+    const btn = document.getElementById("btnRefresh");
+    if (elapsed < COOLDOWN) {
+      const rem = Math.ceil(COOLDOWN - elapsed);
+      btn.disabled = true;
+      btn.textContent = `⏳ รอ (${Math.floor(rem/60)}:${String(rem%60).padStart(2,"0")})`;
+    } else if (btn.disabled && !isFetching) {
+      btn.disabled = false; btn.textContent = "🔄 อัปเดตทุกแท็บ";
+    }
+  }
+}, 1000);
+
+// Auto refresh 30 min
+setInterval(() => fetchAll(false), 30 * 60 * 1000);
+
+// ══════════════════════════════════════════
+// RUN PIPELINE (trigger Python from browser — placeholder)
+// ══════════════════════════════════════════
+function runPipeline() {
+  const btn = document.getElementById("btnRunPipeline");
+  btn.disabled = true; btn.textContent = "⏳ กำลังรัน...";
+  // เปิด terminal command ผ่าน fetch ไม่ได้ ต้องรันมือ
+  alert("รันคำสั่งนี้ใน Terminal:\n\npython layer4_export.py\n\nจากนั้นกด อัปเดตทุกแท็บ เพื่อรีโหลด dashboard_data.json");
+  btn.disabled = false; btn.textContent = "⚡ รัน Risk Pipeline";
+}
+
+// ══════════════════════════════════════════
+// TROJAN SYNC (placeholder)
+// ══════════════════════════════════════════
+function syncTrojan() {
+  const ip = document.getElementById("trojanIp").value.trim();
+  if (!ip) return;
+  alert(`รันคำสั่งใน Terminal:\n\npython -c "from layer2_fusion import pull_water_level; pull_water_level('${ip}')"\n\nจากนั้นกด อัปเดตทุกแท็บ`);
+}
+
+// ══════════════════════════════════════════
+// SCREENSHOT (html2canvas)
+// ══════════════════════════════════════════
+async function takeScreenshot() {
+  const btn = document.getElementById("btnScreenshot");
+  const origText = btn.textContent;
+  btn.textContent = "⏳ กำลังถ่ายภาพ...";
+  btn.disabled = true;
+  try {
+    const canvas = await html2canvas(document.body, { backgroundColor: "#0d1117" });
+    canvas.toBlob(async (blob) => {
+      try {
+        await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+        btn.textContent = "✅ คัดลอกรูปแล้ว";
+      } catch (err) {
+        console.error("Clipboard Error:", err);
+        btn.textContent = "❌ ก๊อปลงคลิปบอร์ดไม่ได้ (ต้องใช้ HTTPS)";
+      }
+      setTimeout(() => { btn.textContent = origText; btn.disabled = false; }, 3000);
+    });
+  } catch (err) {
+    console.error("Screenshot Error:", err);
+    btn.textContent = "❌ ผิดพลาด";
+    setTimeout(() => { btn.textContent = origText; btn.disabled = false; }, 3000);
+  }
+}
+
+// ══════════════════════════════════════════
+// INIT
+// ══════════════════════════════════════════
+(async () => {
+  const cache = await loadCache();
+  if (cache) applyWaterUI(cache, true);
+  TABS.forEach(t => loadCSV(t.id));
+  loadTide();
+  loadRiskPipeline();
+  setTimeout(() => fetchAll(false), 1500);
+})();
+</script>
+</body>
+</html>
