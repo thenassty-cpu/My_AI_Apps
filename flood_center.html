@@ -151,11 +151,15 @@ body { font-family: 'Kanit', 'Tahoma', sans-serif; background: var(--bg); color:
   <span class="status" id="globalStatus">กำลังเตรียมข้อมูล...</span>
   <button class="btn btn-blue" id="btnRefresh" onclick="fetchAll(true)">🔄 อัปเดตทุกแท็บ</button>
   <button class="btn btn-purple" id="btnRunPipeline" onclick="runPipeline()">⚡ รัน Risk Pipeline</button>
-  
-  <!-- ซ่อนส่วนของม้าโทรจันไว้ให้ Dev ดูอย่างเดียว (Client จะมองไม่เห็นส่วนนี้)
-  <button class="btn btn-red" id="btnTrojan" onclick="syncTrojan()">🐎 ม้าโทรจัน</button>
-  <input type="text" class="ip-input" id="trojanIp" value="192.168.1.59" placeholder="IP กล่อง">
-  -->
+  <!-- ปุ่มแคปหน้าจอสีเขียวของ hai จะยังอยู่ตรงนี้ ไม่โดนซ่อน -->
+  <button class="btn" style="background:#10b981" id="btnScreenshot" onclick="takeScreenshot()">📸 แคปหน้าจอ</button>
+
+<!-- เริ่มการซ่อน (ครอบแค่ม้าโทรจัน) -->
+<!--
+<button class="btn btn-red" id="btnTrojan" onclick="syncTrojan()">🐎 ม้าโทรจัน</button>
+<input type="text" class="ip-input" id="trojanIp" value="192.168.1.59" placeholder="IP กล่อง">
+-->
+<!-- จบการซ่อน -->
 </div>
 
 <script>
